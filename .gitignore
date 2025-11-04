@@ -1,0 +1,68 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.log
+*.pdb
+*.obj
+*.bak
+*.cache
+*.ncb
+*.scc
+*.vssscc
+*.vsp
+*.vsw
+*.vspscc
+*.tdl
+*.aps
+*.bsc
+*.res
+*.pch
+*.ipch
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.exe
+*.ilk
+*.lib
+*.exp
+*.winmd
+*.appx
+*.appxbundle
+*.pri
+*.pfx
+*.snk
+
+# Packages
+packages/
+*.nupkg
+
+# Resharper files
+_ReSharper.*/
+*.DotSettings.user
+
+# Rider files
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio Code files
+.vscode/
+
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+
+# StyleCop
+StyleCop.Cache
+
+# Test results
+TestResults/
+
+# Other
+Thumbs.db
+Desktop.ini
