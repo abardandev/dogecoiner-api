@@ -1,0 +1,6 @@
+@DogeCoiner.Data.WebApi_HostAddress = http://localhost:5007
+
+GET {{DogeCoiner.Data.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,4 +1,4 @@
-﻿using DogeCoiner.Data.Local.Dtos;
+﻿using DogeCoiner.Data.Dtos;
 using Microsoft.EntityFrameworkCore;
 
 namespace DogeCoiner.Data.Local
@@ -32,23 +32,23 @@ namespace DogeCoiner.Data.Local
                     .IsRequired();
 
                 entity.Property(e => e.OpenPrice)
-                    .HasColumnType("decimal(12,12)")
+                    .HasColumnType("decimal(24,12)")
                     .IsRequired();
 
                 entity.Property(e => e.HighPrice)
-                    .HasColumnType("decimal(12,12)")
+                    .HasColumnType("decimal(24,12)")
                     .IsRequired();
 
                 entity.Property(e => e.LowPrice)
-                    .HasColumnType("decimal(12,12)")
+                    .HasColumnType("decimal(24,12)")
                     .IsRequired();
 
                 entity.Property(e => e.ClosePrice)
-                    .HasColumnType("decimal(12,12)")
+                    .HasColumnType("decimal(24,12)")
                     .IsRequired();
 
                 entity.Property(e => e.Volume)
-                    .HasColumnType("decimal(20,8)")
+                    .HasColumnType("decimal(24,8)")
                     .IsRequired();
 
                 entity.HasIndex(e => new { e.Symbol, e.Interval, e.Timestamp })

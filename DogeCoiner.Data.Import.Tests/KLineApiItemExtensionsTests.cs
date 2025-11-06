@@ -1,5 +1,4 @@
 ﻿using DogeCoiner.Data.Bitunix.Dtos;
-using DogeCoiner.Data.Local;
 using FluentAssertions;
 using System.Text.Json;
 using System.Text.Json.Serialization.Metadata;

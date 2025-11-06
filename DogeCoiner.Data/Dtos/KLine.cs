@@ -1,4 +1,4 @@
-﻿namespace DogeCoiner.Data.Local.Dtos
+﻿namespace DogeCoiner.Data.Dtos
 {
     public interface IKLineKey
     {

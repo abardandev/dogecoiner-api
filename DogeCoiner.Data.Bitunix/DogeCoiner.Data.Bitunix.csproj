@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DogeCoiner.Data\DogeCoiner.Data.csproj" />
+  </ItemGroup>
+
 </Project>

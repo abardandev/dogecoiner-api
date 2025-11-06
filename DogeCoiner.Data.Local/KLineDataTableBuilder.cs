@@ -1,4 +1,4 @@
-﻿using DogeCoiner.Data.Local.Dtos;
+﻿using DogeCoiner.Data.Dtos;
 using System.Data;
 
 namespace DogeCoiner.Data.Local

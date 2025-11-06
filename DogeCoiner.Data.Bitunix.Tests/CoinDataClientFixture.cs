@@ -26,13 +26,13 @@ namespace DogeCoiner.Data.Bitunix.Tests
                 .Build();
 
             var services = new ServiceCollection();
-            services.Configure<CoinDataApiSettings>(Config.GetSection("ApiSettings"));
+            services.Configure<BitunixApiSettings>(Config.GetSection("ApiSettings"));
 
             Api = new Mock<HttpMessageHandler>();
             var httpClient = new HttpClient(Api.Object);
             services.AddSingleton(httpClient);
 
-            services.AddScoped<ICoinDataClient, CoinDataClient>();
+            services.AddScoped<ICoinDataClient, BitunixDataClient>();
 
             _provider = services.BuildServiceProvider();
         }

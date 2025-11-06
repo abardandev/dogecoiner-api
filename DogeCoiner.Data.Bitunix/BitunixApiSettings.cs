@@ -1,6 +1,6 @@
 ﻿namespace DogeCoiner.Data.Bitunix
 {
-    public class CoinDataApiSettings
+    public class BitunixApiSettings
     {
         public string ApiBaseUri { get; set; }
         public string KLineHistoryUri { get; set; }

@@ -1,5 +1,5 @@
 ﻿using Dapper;
-using DogeCoiner.Data.Local.Dtos;
+using DogeCoiner.Data.Dtos;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
 using System.Data;

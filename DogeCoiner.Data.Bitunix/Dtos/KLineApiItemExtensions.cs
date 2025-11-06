@@ -1,7 +1,6 @@
-﻿using DogeCoiner.Data.Bitunix.Dtos;
-using DogeCoiner.Data.Local.Dtos;
+﻿using DogeCoiner.Data.Dtos;
 
-namespace DogeCoiner.Data.Local
+namespace DogeCoiner.Data.Bitunix.Dtos
 {
     public static class KLineApiItemExtensions
     {

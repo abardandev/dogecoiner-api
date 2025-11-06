@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Import.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Local.Tests", "DogeCoiner.Data.Local.Tests\DogeCoiner.Data.Local.Tests.csproj", "{4736129F-2E35-4995-BC42-5D3F07B6857C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data", "DogeCoiner.Data\DogeCoiner.Data.csproj", "{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.WebApi", "DogeCoiner.Data.WebApi\DogeCoiner.Data.WebApi.csproj", "{F2FF3034-EB65-4C52-8CAD-262AA51E854F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FF3034-EB65-4C52-8CAD-262AA51E854F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FF3034-EB65-4C52-8CAD-262AA51E854F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FF3034-EB65-4C52-8CAD-262AA51E854F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FF3034-EB65-4C52-8CAD-262AA51E854F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

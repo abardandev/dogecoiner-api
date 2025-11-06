@@ -11,12 +11,12 @@ namespace DogeCoiner.Data.Bitunix
         Task<KLineApiResponse> GetKLineHistory(KLineRequest req);
     }
 
-    public class CoinDataClient : ICoinDataClient
+    public class BitunixDataClient : ICoinDataClient
     {
-        private CoinDataApiSettings _apiConfig;
+        private BitunixApiSettings _apiConfig;
         private readonly HttpClient _httpClient;
 
-        public CoinDataClient(IOptions<CoinDataApiSettings> apiConfig, HttpClient httpClient)
+        public BitunixDataClient(IOptions<BitunixApiSettings> apiConfig, HttpClient httpClient)
         {
             _apiConfig = apiConfig.Value;
             _httpClient = httpClient;

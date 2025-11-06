@@ -1,5 +1,5 @@
 ﻿using DogeCoiner.Data.Bitunix.Tests;
-using DogeCoiner.Data.Local.Dtos;
+using DogeCoiner.Data.Dtos;
 using System.Text.Json;
 
 namespace DogeCoiner.Data.Local.Tests
