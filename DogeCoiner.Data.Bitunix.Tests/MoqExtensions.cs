@@ -4,7 +4,7 @@ using Moq.Protected;
 using System.Net;
 using System.Text.Json;
 
-namespace DataImport.Tests
+namespace DogeCoiner.Data.Bitunix.Tests
 {
     public static class MoqExtensions
     {

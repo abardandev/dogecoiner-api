@@ -1,7 +1,8 @@
-﻿using FluentAssertions;
+﻿using DogeCoiner.Data.Bitunix.Dtos;
+using FluentAssertions;
 using System.Data;
 
-namespace DataImport.Tests
+namespace DogeCoiner.Data.Bitunix.Tests
 {
     public class CoinDataClientTests : IClassFixture<CoinDataClientFixture>
     {

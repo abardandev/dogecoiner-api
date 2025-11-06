@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8 d17.14
+VisualStudioVersion = 17.14.36623.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataImport", "DataImport\DataImport.csproj", "{AE95065F-2684-42A4-8406-BE80AB24F7BC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Bitunix.Tests", "DogeCoiner.Data.Bitunix.Tests\DogeCoiner.Data.Bitunix.Tests.csproj", "{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataImport.Tests", "DataImport.Tests\DataImport.Tests.csproj", "{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Bitunix", "DogeCoiner.Data.Bitunix\DogeCoiner.Data.Bitunix.csproj", "{BA91689E-EC5B-49C8-B621-A980868979BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Local", "DogeCoiner.Data.Local\DogeCoiner.Data.Local.csproj", "{8A99DB2D-93A8-4024-B3D3-E0AB11761433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Import", "DogeCoiner.Data.Import\DogeCoiner.Data.Import.csproj", "{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Import.Tests", "DogeCoiner.Data.Import.Tests\DogeCoiner.Data.Import.Tests.csproj", "{701E106E-106F-478D-8FC8-C49712FB9235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Local.Tests", "DogeCoiner.Data.Local.Tests\DogeCoiner.Data.Local.Tests.csproj", "{4736129F-2E35-4995-BC42-5D3F07B6857C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE95065F-2684-42A4-8406-BE80AB24F7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE95065F-2684-42A4-8406-BE80AB24F7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE95065F-2684-42A4-8406-BE80AB24F7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE95065F-2684-42A4-8406-BE80AB24F7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23A57D82-1AC2-41ED-8ABC-A8C1F991EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA91689E-EC5B-49C8-B621-A980868979BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA91689E-EC5B-49C8-B621-A980868979BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA91689E-EC5B-49C8-B621-A980868979BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA91689E-EC5B-49C8-B621-A980868979BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A99DB2D-93A8-4024-B3D3-E0AB11761433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A99DB2D-93A8-4024-B3D3-E0AB11761433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A99DB2D-93A8-4024-B3D3-E0AB11761433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A99DB2D-93A8-4024-B3D3-E0AB11761433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701E106E-106F-478D-8FC8-C49712FB9235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701E106E-106F-478D-8FC8-C49712FB9235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701E106E-106F-478D-8FC8-C49712FB9235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701E106E-106F-478D-8FC8-C49712FB9235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4736129F-2E35-4995-BC42-5D3F07B6857C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

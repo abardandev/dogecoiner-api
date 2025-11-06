@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 
-namespace DataImport.Tests
+namespace DogeCoiner.Data.Bitunix.Tests
 {
     public class CoinDataClientFixture
     {
