@@ -4,3 +4,13 @@ GET {{DogeCoiner.Data.WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{DogeCoiner.Data.WebApi_HostAddress}}/klinehistory?symbol=BTCUSDT&interval=W
+Accept: application/json
+
+###
+
+GET {{DogeCoiner.Data.WebApi_HostAddress}}/klinehistory/linedata?symbol=BTCUSDT&interval=W
+Accept: application/json
+
+###
