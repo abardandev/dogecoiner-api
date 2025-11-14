@@ -1,1674 +1,1375 @@
-[
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-20T00:00:00Z",
-    "OpenPrice": 0.19535,
-    "HighPrice": 0.20738,
-    "LowPrice": 0.18496,
-    "ClosePrice": 0.20579,
-    "Volume": 576966387
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-13T00:00:00Z",
-    "OpenPrice": 0.20714,
-    "HighPrice": 0.2183,
-    "LowPrice": 0.17556,
-    "ClosePrice": 0.19535,
-    "Volume": 1000785277
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-06T00:00:00Z",
-    "OpenPrice": 0.25284,
-    "HighPrice": 0.27038,
-    "LowPrice": 0.09506,
-    "ClosePrice": 0.20714,
-    "Volume": 1682364312
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-29T00:00:00Z",
-    "OpenPrice": 0.23735,
-    "HighPrice": 0.26533,
-    "LowPrice": 0.22633,
-    "ClosePrice": 0.25284,
-    "Volume": 651286715
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-22T00:00:00Z",
-    "OpenPrice": 0.26075,
-    "HighPrice": 0.26234,
-    "LowPrice": 0.22048,
-    "ClosePrice": 0.23735,
-    "Volume": 825907377
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-15T00:00:00Z",
-    "OpenPrice": 0.27795,
-    "HighPrice": 0.28878,
-    "LowPrice": 0.25702,
-    "ClosePrice": 0.26075,
-    "Volume": 846906065
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-08T00:00:00Z",
-    "OpenPrice": 0.22876,
-    "HighPrice": 0.30678,
-    "LowPrice": 0.22655,
-    "ClosePrice": 0.27795,
-    "Volume": 1196991285
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-01T00:00:00Z",
-    "OpenPrice": 0.21371,
-    "HighPrice": 0.22926,
-    "LowPrice": 0.20477,
-    "ClosePrice": 0.22876,
-    "Volume": 541996296
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-25T00:00:00Z",
-    "OpenPrice": 0.23186,
-    "HighPrice": 0.23459,
-    "LowPrice": 0.20585,
-    "ClosePrice": 0.21371,
-    "Volume": 606847547
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-18T00:00:00Z",
-    "OpenPrice": 0.23456,
-    "HighPrice": 0.24494,
-    "LowPrice": 0.20783,
-    "ClosePrice": 0.23186,
-    "Volume": 931384853
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-11T00:00:00Z",
-    "OpenPrice": 0.23384,
-    "HighPrice": 0.25574,
-    "LowPrice": 0.21653,
-    "ClosePrice": 0.23456,
-    "Volume": 955513780
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-04T00:00:00Z",
-    "OpenPrice": 0.19872,
-    "HighPrice": 0.24675,
-    "LowPrice": 0.19561,
-    "ClosePrice": 0.23384,
-    "Volume": 620621958
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-28T00:00:00Z",
-    "OpenPrice": 0.24071,
-    "HighPrice": 0.24858,
-    "LowPrice": 0.1886,
-    "ClosePrice": 0.19872,
-    "Volume": 703291898
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-21T00:00:00Z",
-    "OpenPrice": 0.27375,
-    "HighPrice": 0.28746,
-    "LowPrice": 0.22092,
-    "ClosePrice": 0.24071,
-    "Volume": 1049866813
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-14T00:00:00Z",
-    "OpenPrice": 0.19855,
-    "HighPrice": 0.27826,
-    "LowPrice": 0.18847,
-    "ClosePrice": 0.27375,
-    "Volume": 1245157563
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-07T00:00:00Z",
-    "OpenPrice": 0.17196,
-    "HighPrice": 0.21372,
-    "LowPrice": 0.16569,
-    "ClosePrice": 0.19855,
-    "Volume": 650626011
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-30T00:00:00Z",
-    "OpenPrice": 0.16944,
-    "HighPrice": 0.17541,
-    "LowPrice": 0.15655,
-    "ClosePrice": 0.17196,
-    "Volume": 384027379
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-23T00:00:00Z",
-    "OpenPrice": 0.15128,
-    "HighPrice": 0.17,
-    "LowPrice": 0.14863,
-    "ClosePrice": 0.16944,
-    "Volume": 351144692
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-16T00:00:00Z",
-    "OpenPrice": 0.17555,
-    "HighPrice": 0.18114,
-    "LowPrice": 0.14271,
-    "ClosePrice": 0.15128,
-    "Volume": 495376628
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-09T00:00:00Z",
-    "OpenPrice": 0.18417,
-    "HighPrice": 0.20662,
-    "LowPrice": 0.1699,
-    "ClosePrice": 0.17555,
-    "Volume": 560641728
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-02T00:00:00Z",
-    "OpenPrice": 0.19364,
-    "HighPrice": 0.20052,
-    "LowPrice": 0.16801,
-    "ClosePrice": 0.18417,
-    "Volume": 490699202
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-26T00:00:00Z",
-    "OpenPrice": 0.2249,
-    "HighPrice": 0.23214,
-    "LowPrice": 0.18555,
-    "ClosePrice": 0.19364,
-    "Volume": 708484876
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-19T00:00:00Z",
-    "OpenPrice": 0.23307,
-    "HighPrice": 0.2544,
-    "LowPrice": 0.21396,
-    "ClosePrice": 0.2249,
-    "Volume": 771190054
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-12T00:00:00Z",
-    "OpenPrice": 0.23181,
-    "HighPrice": 0.25337,
-    "LowPrice": 0.21075,
-    "ClosePrice": 0.23307,
-    "Volume": 854185296
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-05T00:00:00Z",
-    "OpenPrice": 0.17048,
-    "HighPrice": 0.25961,
-    "LowPrice": 0.16426,
-    "ClosePrice": 0.23181,
-    "Volume": 772258623
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-28T00:00:00Z",
-    "OpenPrice": 0.17933,
-    "HighPrice": 0.18447,
-    "LowPrice": 0.16676,
-    "ClosePrice": 0.17048,
-    "Volume": 399731164
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-21T00:00:00Z",
-    "OpenPrice": 0.15526,
-    "HighPrice": 0.19299,
-    "LowPrice": 0.15502,
-    "ClosePrice": 0.17933,
-    "Volume": 640593121
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-14T00:00:00Z",
-    "OpenPrice": 0.16259,
-    "HighPrice": 0.16961,
-    "LowPrice": 0.15019,
-    "ClosePrice": 0.15526,
-    "Volume": 331612528
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-07T00:00:00Z",
-    "OpenPrice": 0.14927,
-    "HighPrice": 0.16948,
-    "LowPrice": 0.12988,
-    "ClosePrice": 0.16259,
-    "Volume": 829190285
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-31T00:00:00Z",
-    "OpenPrice": 0.1665,
-    "HighPrice": 0.17999,
-    "LowPrice": 0.14583,
-    "ClosePrice": 0.14927,
-    "Volume": 544259454
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-24T00:00:00Z",
-    "OpenPrice": 0.17261,
-    "HighPrice": 0.20579,
-    "LowPrice": 0.16444,
-    "ClosePrice": 0.1665,
-    "Volume": 585755335
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-17T00:00:00Z",
-    "OpenPrice": 0.16816,
-    "HighPrice": 0.17916,
-    "LowPrice": 0.16278,
-    "ClosePrice": 0.17261,
-    "Volume": 343210038
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-10T00:00:00Z",
-    "OpenPrice": 0.16805,
-    "HighPrice": 0.18094,
-    "LowPrice": 0.1428,
-    "ClosePrice": 0.16816,
-    "Volume": 657648243
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-03T00:00:00Z",
-    "OpenPrice": 0.23936,
-    "HighPrice": 0.24056,
-    "LowPrice": 0.16538,
-    "ClosePrice": 0.16805,
-    "Volume": 700020966
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-24T00:00:00Z",
-    "OpenPrice": 0.24285,
-    "HighPrice": 0.24397,
-    "LowPrice": 0.18154,
-    "ClosePrice": 0.23936,
-    "Volume": 874357328
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-17T00:00:00Z",
-    "OpenPrice": 0.26554,
-    "HighPrice": 0.26885,
-    "LowPrice": 0.2344,
-    "ClosePrice": 0.24285,
-    "Volume": 375220378
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-10T00:00:00Z",
-    "OpenPrice": 0.24892,
-    "HighPrice": 0.286725,
-    "LowPrice": 0.2416,
-    "ClosePrice": 0.26554,
-    "Volume": 637710743
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-03T00:00:00Z",
-    "OpenPrice": 0.26797,
-    "HighPrice": 0.29295,
-    "LowPrice": 0.20218,
-    "ClosePrice": 0.24892,
-    "Volume": 1470176086
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-27T00:00:00Z",
-    "OpenPrice": 0.33605,
-    "HighPrice": 0.34174,
-    "LowPrice": 0.25004,
-    "ClosePrice": 0.26797,
-    "Volume": 1013715559
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-20T00:00:00Z",
-    "OpenPrice": 0.35829,
-    "HighPrice": 0.40233,
-    "LowPrice": 0.33506,
-    "ClosePrice": 0.33605,
-    "Volume": 1330637511
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-13T00:00:00Z",
-    "OpenPrice": 0.33591,
-    "HighPrice": 0.43403,
-    "LowPrice": 0.3099,
-    "ClosePrice": 0.35829,
-    "Volume": 1831135131
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-06T00:00:00Z",
-    "OpenPrice": 0.38231,
-    "HighPrice": 0.39829,
-    "LowPrice": 0.3143,
-    "ClosePrice": 0.33591,
-    "Volume": 1061897215.36
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-30T00:00:00Z",
-    "OpenPrice": 0.31435,
-    "HighPrice": 0.39873,
-    "LowPrice": 0.30669,
-    "ClosePrice": 0.38231,
-    "Volume": 969583334
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-23T00:00:00Z",
-    "OpenPrice": 0.3126,
-    "HighPrice": 0.34221,
-    "LowPrice": 0.30283,
-    "ClosePrice": 0.31435,
-    "Volume": 858192409
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-16T00:00:00Z",
-    "OpenPrice": 0.40656,
-    "HighPrice": 0.415,
-    "LowPrice": 0.26236,
-    "ClosePrice": 0.3126,
-    "Volume": 2478175904
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-09T00:00:00Z",
-    "OpenPrice": 0.46634,
-    "HighPrice": 0.46739,
-    "LowPrice": 0.36551,
-    "ClosePrice": 0.40656,
-    "Volume": 2852513244
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-02T00:00:00Z",
-    "OpenPrice": 0.4405,
-    "HighPrice": 0.48434,
-    "LowPrice": 0.38823,
-    "ClosePrice": 0.46634,
-    "Volume": 4227085986
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-25T00:00:00Z",
-    "OpenPrice": 0.43026,
-    "HighPrice": 0.44971,
-    "LowPrice": 0.36507,
-    "ClosePrice": 0.4405,
-    "Volume": 3259341334
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-18T00:00:00Z",
-    "OpenPrice": 0.36697,
-    "HighPrice": 0.47996,
-    "LowPrice": 0.35745,
-    "ClosePrice": 0.43026,
-    "Volume": 5408105211
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-11T00:00:00Z",
-    "OpenPrice": 0.27771,
-    "HighPrice": 0.43849,
-    "LowPrice": 0.27274,
-    "ClosePrice": 0.36697,
-    "Volume": 9438852992
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-04T00:00:00Z",
-    "OpenPrice": 0.15137,
-    "HighPrice": 0.29771,
-    "LowPrice": 0.1482,
-    "ClosePrice": 0.27771,
-    "Volume": 5845597983
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-28T00:00:00Z",
-    "OpenPrice": 0.1443,
-    "HighPrice": 0.17974,
-    "LowPrice": 0.14115,
-    "ClosePrice": 0.15137,
-    "Volume": 1967935355
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-21T00:00:00Z",
-    "OpenPrice": 0.14218,
-    "HighPrice": 0.14974,
-    "LowPrice": 0.12789,
-    "ClosePrice": 0.1443,
-    "Volume": 1157447880
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-14T00:00:00Z",
-    "OpenPrice": 0.1114,
-    "HighPrice": 0.14695,
-    "LowPrice": 0.10931,
-    "ClosePrice": 0.14218,
-    "Volume": 1365462560
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-07T00:00:00Z",
-    "OpenPrice": 0.11158,
-    "HighPrice": 0.11546,
-    "LowPrice": 0.10311,
-    "ClosePrice": 0.1114,
-    "Volume": 298651528
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-30T00:00:00Z",
-    "OpenPrice": 0.12438,
-    "HighPrice": 0.12464,
-    "LowPrice": 0.10107,
-    "ClosePrice": 0.11158,
-    "Volume": 366843464
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-23T00:00:00Z",
-    "OpenPrice": 0.106322,
-    "HighPrice": 0.13202,
-    "LowPrice": 0.10414,
-    "ClosePrice": 0.12438,
-    "Volume": 460270557
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-16T00:00:00Z",
-    "OpenPrice": 0.10281,
-    "HighPrice": 0.11048,
-    "LowPrice": 0.09836,
-    "ClosePrice": 0.106322,
-    "Volume": 230794476
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-09T00:00:00Z",
-    "OpenPrice": 0.09616,
-    "HighPrice": 0.10846,
-    "LowPrice": 0.09572,
-    "ClosePrice": 0.10281,
-    "Volume": 415068915
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-02T00:00:00Z",
-    "OpenPrice": 0.09509,
-    "HighPrice": 0.10079,
-    "LowPrice": 0.08895,
-    "ClosePrice": 0.09616,
-    "Volume": 618364854
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-26T00:00:00Z",
-    "OpenPrice": 0.10959,
-    "HighPrice": 0.11031,
-    "LowPrice": 0.09398,
-    "ClosePrice": 0.09509,
-    "Volume": 601403589
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-19T00:00:00Z",
-    "OpenPrice": 0.10005,
-    "HighPrice": 0.11544,
-    "LowPrice": 0.0986,
-    "ClosePrice": 0.10959,
-    "Volume": 664891341
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-12T00:00:00Z",
-    "OpenPrice": 0.100584,
-    "HighPrice": 0.10902,
-    "LowPrice": 0.0975,
-    "ClosePrice": 0.10005,
-    "Volume": 522207548
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-05T00:00:00Z",
-    "OpenPrice": 0.114016,
-    "HighPrice": 0.110985,
-    "LowPrice": 0.080504,
-    "ClosePrice": 0.100584,
-    "Volume": 940327633
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-29T00:00:00Z",
-    "OpenPrice": 0.130046,
-    "HighPrice": 0.135095,
-    "LowPrice": 0.1083,
-    "ClosePrice": 0.114016,
-    "Volume": 242711144.568
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-22T00:00:00Z",
-    "OpenPrice": 0.140265,
-    "HighPrice": 0.142664,
-    "LowPrice": 0.120125,
-    "ClosePrice": 0.130046,
-    "Volume": 429270888
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-15T00:00:00Z",
-    "OpenPrice": 0.108344,
-    "HighPrice": 0.143704,
-    "LowPrice": 0.114574,
-    "ClosePrice": 0.140265,
-    "Volume": 444751161
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-08T00:00:00Z",
-    "OpenPrice": 0.104145,
-    "HighPrice": 0.111156,
-    "LowPrice": 0.098904,
-    "ClosePrice": 0.108344,
-    "Volume": 92934170.072
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-01T00:00:00Z",
-    "OpenPrice": 0.124484,
-    "HighPrice": 0.127485,
-    "LowPrice": 0.092024,
-    "ClosePrice": 0.104145,
-    "Volume": 417827296
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-24T00:00:00Z",
-    "OpenPrice": 0.122224,
-    "HighPrice": 0.128654,
-    "LowPrice": 0.11389,
-    "ClosePrice": 0.124484,
-    "Volume": 276786196
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-17T00:00:00Z",
-    "OpenPrice": 0.137124,
-    "HighPrice": 0.138216,
-    "LowPrice": 0.114084,
-    "ClosePrice": 0.122224,
-    "Volume": 366640057
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-10T00:00:00Z",
-    "OpenPrice": 0.146795,
-    "HighPrice": 0.150576,
-    "LowPrice": 0.132004,
-    "ClosePrice": 0.137124,
-    "Volume": 321429423
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-03T00:00:00Z",
-    "OpenPrice": 0.157115,
-    "HighPrice": 0.165726,
-    "LowPrice": 0.140125,
-    "ClosePrice": 0.146795,
-    "Volume": 332773580
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-27T00:00:00Z",
-    "OpenPrice": 0.166205,
-    "HighPrice": 0.173496,
-    "LowPrice": 0.154314,
-    "ClosePrice": 0.157115,
-    "Volume": 471326142
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-20T00:00:00Z",
-    "OpenPrice": 0.149084,
-    "HighPrice": 0.174836,
-    "LowPrice": 0.147694,
-    "ClosePrice": 0.166205,
-    "Volume": 759081493
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-13T00:00:00Z",
-    "OpenPrice": 0.141235,
-    "HighPrice": 0.159306,
-    "LowPrice": 0.135866,
-    "ClosePrice": 0.149084,
-    "Volume": 564811766
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-06T00:00:00Z",
-    "OpenPrice": 0.160975,
-    "HighPrice": 0.169114,
-    "LowPrice": 0.139409,
-    "ClosePrice": 0.141235,
-    "Volume": 1430300242
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-29T00:00:00Z",
-    "OpenPrice": 0.146624,
-    "HighPrice": 0.169974,
-    "LowPrice": 0.120105,
-    "ClosePrice": 0.160975,
-    "Volume": 4809714815
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-22T00:00:00Z",
-    "OpenPrice": 0.158246,
-    "HighPrice": 0.164275,
-    "LowPrice": 0.142896,
-    "ClosePrice": 0.146624,
-    "Volume": 76138620
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-15T00:00:00Z",
-    "OpenPrice": 0.162125,
-    "HighPrice": 0.168945,
-    "LowPrice": 0.139034,
-    "ClosePrice": 0.158246,
-    "Volume": 125623316
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-08T00:00:00Z",
-    "OpenPrice": 0.198845,
-    "HighPrice": 0.208986,
-    "LowPrice": 0.130244,
-    "ClosePrice": 0.162125,
-    "Volume": 244302177
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-01T00:00:00Z",
-    "OpenPrice": 0.219965,
-    "HighPrice": 0.220014,
-    "LowPrice": 0.167549,
-    "ClosePrice": 0.198845,
-    "Volume": 838939416
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-25T00:00:00Z",
-    "OpenPrice": 0.176516,
-    "HighPrice": 0.228791,
-    "LowPrice": 0.170005,
-    "ClosePrice": 0.219965,
-    "Volume": 1250897297
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-18T00:00:00Z",
-    "OpenPrice": 0.154306,
-    "HighPrice": 0.179946,
-    "LowPrice": 0.122791,
-    "ClosePrice": 0.176516,
-    "Volume": 1439828241
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-11T00:00:00Z",
-    "OpenPrice": 0.169965,
-    "HighPrice": 0.192849,
-    "LowPrice": 0.136635,
-    "ClosePrice": 0.154306,
-    "Volume": 1420471322
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-04T00:00:00Z",
-    "OpenPrice": 0.153485,
-    "HighPrice": 0.206296,
-    "LowPrice": 0.126255,
-    "ClosePrice": 0.169965,
-    "Volume": 2633155143
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-26T00:00:00Z",
-    "OpenPrice": 0.086116,
-    "HighPrice": 0.156275,
-    "LowPrice": 0.084156,
-    "ClosePrice": 0.153485,
-    "Volume": 2054318090
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-19T00:00:00Z",
-    "OpenPrice": 0.085185,
-    "HighPrice": 0.091476,
-    "LowPrice": 0.081964,
-    "ClosePrice": 0.086116,
-    "Volume": 332405216
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-12T00:00:00Z",
-    "OpenPrice": 0.081224,
-    "HighPrice": 0.088234,
-    "LowPrice": 0.079475,
-    "ClosePrice": 0.085185,
-    "Volume": 330844265
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-05T00:00:00Z",
-    "OpenPrice": 0.078315,
-    "HighPrice": 0.083565,
-    "LowPrice": 0.077354,
-    "ClosePrice": 0.081224,
-    "Volume": 167502907
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-29T00:00:00Z",
-    "OpenPrice": 0.078825,
-    "HighPrice": 0.083056,
-    "LowPrice": 0.077285,
-    "ClosePrice": 0.078315,
-    "Volume": 184733258
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-22T00:00:00Z",
-    "OpenPrice": 0.085444,
-    "HighPrice": 0.085575,
-    "LowPrice": 0.076004,
-    "ClosePrice": 0.078825,
-    "Volume": 391353985
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-15T00:00:00Z",
-    "OpenPrice": 0.080014,
-    "HighPrice": 0.090525,
-    "LowPrice": 0.074844,
-    "ClosePrice": 0.085444,
-    "Volume": 355374867
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-08T00:00:00Z",
-    "OpenPrice": 0.078235,
-    "HighPrice": 0.087931,
-    "LowPrice": 0.074135,
-    "ClosePrice": 0.080014,
-    "Volume": 599081975
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-01T00:00:00Z",
-    "OpenPrice": 0.089555,
-    "HighPrice": 0.094365,
-    "LowPrice": 0.0751,
-    "ClosePrice": 0.078235,
-    "Volume": 606468027
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-25T00:00:00Z",
-    "OpenPrice": 0.091685,
-    "HighPrice": 0.095415,
-    "LowPrice": 0.08705,
-    "ClosePrice": 0.089555,
-    "Volume": 377178422
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-18T00:00:00Z",
-    "OpenPrice": 0.092955,
-    "HighPrice": 0.097835,
-    "LowPrice": 0.086455,
-    "ClosePrice": 0.091685,
-    "Volume": 737627018
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-11T00:00:00Z",
-    "OpenPrice": 0.101865,
-    "HighPrice": 0.107245,
-    "LowPrice": 0.090015,
-    "ClosePrice": 0.092955,
-    "Volume": 1322666043
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-04T00:00:00Z",
-    "OpenPrice": 0.085715,
-    "HighPrice": 0.106349,
-    "LowPrice": 0.085305,
-    "ClosePrice": 0.101865,
-    "Volume": 1947752182
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-27T00:00:00Z",
-    "OpenPrice": 0.078675,
-    "HighPrice": 0.087345,
-    "LowPrice": 0.076735,
-    "ClosePrice": 0.085715,
-    "Volume": 886904666
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-20T00:00:00Z",
-    "OpenPrice": 0.080455,
-    "HighPrice": 0.082175,
-    "LowPrice": 0.070675,
-    "ClosePrice": 0.078675,
-    "Volume": 775431251
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-13T00:00:00Z",
-    "OpenPrice": 0.077955,
-    "HighPrice": 0.087515,
-    "LowPrice": 0.069015,
-    "ClosePrice": 0.080455,
-    "Volume": 2264896150
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-06T00:00:00Z",
-    "OpenPrice": 0.071095,
-    "HighPrice": 0.081855,
-    "LowPrice": 0.06669,
-    "ClosePrice": 0.077955,
-    "Volume": 2388609520
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-30T00:00:00Z",
-    "OpenPrice": 0.069355,
-    "HighPrice": 0.071735,
-    "LowPrice": 0.065785,
-    "ClosePrice": 0.071095,
-    "Volume": 1108759307
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-23T00:00:00Z",
-    "OpenPrice": 0.061695,
-    "HighPrice": 0.075125,
-    "LowPrice": 0.061305,
-    "ClosePrice": 0.069355,
-    "Volume": 1545186669
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-16T00:00:00Z",
-    "OpenPrice": 0.059305,
-    "HighPrice": 0.061725,
-    "LowPrice": 0.057815,
-    "ClosePrice": 0.061695,
-    "Volume": 398356832
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-09T00:00:00Z",
-    "OpenPrice": 0.060955,
-    "HighPrice": 0.060995,
-    "LowPrice": 0.056945,
-    "ClosePrice": 0.059305,
-    "Volume": 382016721
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-02T00:00:00Z",
-    "OpenPrice": 0.063185,
-    "HighPrice": 0.064155,
-    "LowPrice": 0.060105,
-    "ClosePrice": 0.060955,
-    "Volume": 351651239
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-25T00:00:00Z",
-    "OpenPrice": 0.06068,
-    "HighPrice": 0.063575,
-    "LowPrice": 0.05941,
-    "ClosePrice": 0.063185,
-    "Volume": 385009926
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-18T00:00:00Z",
-    "OpenPrice": 0.06146,
-    "HighPrice": 0.06347,
-    "LowPrice": 0.06045,
-    "ClosePrice": 0.06068,
-    "Volume": 946626702
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-11T00:00:00Z",
-    "OpenPrice": 0.0613,
-    "HighPrice": 0.06298,
-    "LowPrice": 0.0592,
-    "ClosePrice": 0.06146,
-    "Volume": 479760207
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-04T00:00:00Z",
-    "OpenPrice": 0.06317,
-    "HighPrice": 0.06461,
-    "LowPrice": 0.05949,
-    "ClosePrice": 0.0613,
-    "Volume": 352475914
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-28T00:00:00Z",
-    "OpenPrice": 0.06317,
-    "HighPrice": 0.06855,
-    "LowPrice": 0.06187,
-    "ClosePrice": 0.06317,
-    "Volume": 434544078
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-21T00:00:00Z",
-    "OpenPrice": 0.06385,
-    "HighPrice": 0.06523,
-    "LowPrice": 0.06039,
-    "ClosePrice": 0.06317,
-    "Volume": 298871827
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-14T00:00:00Z",
-    "OpenPrice": 0.0748,
-    "HighPrice": 0.07709,
-    "LowPrice": 0.05568,
-    "ClosePrice": 0.06385,
-    "Volume": 592749770
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-07T00:00:00Z",
-    "OpenPrice": 0.07426,
-    "HighPrice": 0.07744,
-    "LowPrice": 0.07189,
-    "ClosePrice": 0.0748,
-    "Volume": 431191965
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-31T00:00:00Z",
-    "OpenPrice": 0.07803,
-    "HighPrice": 0.07981,
-    "LowPrice": 0.07256,
-    "ClosePrice": 0.07426,
-    "Volume": 246203184
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-24T00:00:00Z",
-    "OpenPrice": 0.0718,
-    "HighPrice": 0.08372,
-    "LowPrice": 0.07018,
-    "ClosePrice": 0.07803,
-    "Volume": 1103234327
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-17T00:00:00Z",
-    "OpenPrice": 0.06951,
-    "HighPrice": 0.07689,
-    "LowPrice": 0.06706,
-    "ClosePrice": 0.0718,
-    "Volume": 1542154536
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-10T00:00:00Z",
-    "OpenPrice": 0.06537,
-    "HighPrice": 0.07512,
-    "LowPrice": 0.06332,
-    "ClosePrice": 0.06951,
-    "Volume": 1723521589
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-03T00:00:00Z",
-    "OpenPrice": 0.06801,
-    "HighPrice": 0.07182,
-    "LowPrice": 0.06413,
-    "ClosePrice": 0.06537,
-    "Volume": 825234669
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-26T00:00:00Z",
-    "OpenPrice": 0.06671,
-    "HighPrice": 0.07137,
-    "LowPrice": 0.0603,
-    "ClosePrice": 0.06801,
-    "Volume": 1458444945
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-19T00:00:00Z",
-    "OpenPrice": 0.06212,
-    "HighPrice": 0.07011,
-    "LowPrice": 0.06076,
-    "ClosePrice": 0.06671,
-    "Volume": 1164616261
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-12T00:00:00Z",
-    "OpenPrice": 0.06151,
-    "HighPrice": 0.06396,
-    "LowPrice": 0.05823,
-    "ClosePrice": 0.06212,
-    "Volume": 999497724
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-05T00:00:00Z",
-    "OpenPrice": 0.07248,
-    "HighPrice": 0.07269,
-    "LowPrice": 0.05393,
-    "ClosePrice": 0.06151,
-    "Volume": 1813323988
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-29T00:00:00Z",
-    "OpenPrice": 0.07353,
-    "HighPrice": 0.07398,
-    "LowPrice": 0.07072,
-    "ClosePrice": 0.07248,
-    "Volume": 584239933
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-22T00:00:00Z",
-    "OpenPrice": 0.07211,
-    "HighPrice": 0.07401,
-    "LowPrice": 0.06871,
-    "ClosePrice": 0.07353,
-    "Volume": 768384869
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-15T00:00:00Z",
-    "OpenPrice": 0.07149,
-    "HighPrice": 0.07545,
-    "LowPrice": 0.07154,
-    "ClosePrice": 0.07211,
-    "Volume": 708579566
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-08T00:00:00Z",
-    "OpenPrice": 0.07654,
-    "HighPrice": 0.07708,
-    "LowPrice": 0.06916,
-    "ClosePrice": 0.07149,
-    "Volume": 341567689
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-01T00:00:00Z",
-    "OpenPrice": 0.07947,
-    "HighPrice": 0.08145,
-    "LowPrice": 0.07577,
-    "ClosePrice": 0.07654,
-    "Volume": 392709282
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-24T00:00:00Z",
-    "OpenPrice": 0.07879,
-    "HighPrice": 0.08358,
-    "LowPrice": 0.07486,
-    "ClosePrice": 0.07947,
-    "Volume": 496208734
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-17T00:00:00Z",
-    "OpenPrice": 0.09044,
-    "HighPrice": 0.09497,
-    "LowPrice": 0.07646,
-    "ClosePrice": 0.07879,
-    "Volume": 1549739358
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-10T00:00:00Z",
-    "OpenPrice": 0.08316,
-    "HighPrice": 0.09179,
-    "LowPrice": 0.08062,
-    "ClosePrice": 0.09044,
-    "Volume": 825038572
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-03T00:00:00Z",
-    "OpenPrice": 0.07903,
-    "HighPrice": 0.10463,
-    "LowPrice": 0.07606,
-    "ClosePrice": 0.08316,
-    "Volume": 2228771186
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-27T00:00:00Z",
-    "OpenPrice": 0.07434,
-    "HighPrice": 0.08555,
-    "LowPrice": 0.07125,
-    "ClosePrice": 0.07903,
-    "Volume": 694699271
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-20T00:00:00Z",
-    "OpenPrice": 0.07448,
-    "HighPrice": 0.07911,
-    "LowPrice": 0.07035,
-    "ClosePrice": 0.07434,
-    "Volume": 985149111.3570108
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-13T00:00:00Z",
-    "OpenPrice": 0.07048,
-    "HighPrice": 0.07887,
-    "LowPrice": 0.06744,
-    "ClosePrice": 0.07448,
-    "Volume": 971457365
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-06T00:00:00Z",
-    "OpenPrice": 0.07655,
-    "HighPrice": 0.0723,
-    "LowPrice": 0.0626,
-    "ClosePrice": 0.07048,
-    "Volume": 464527720
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-27T00:00:00Z",
-    "OpenPrice": 0.0822,
-    "HighPrice": 0.08308,
-    "LowPrice": 0.07337,
-    "ClosePrice": 0.07655,
-    "Volume": 305638493
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-20T00:00:00Z",
-    "OpenPrice": 0.08697,
-    "HighPrice": 0.08881,
-    "LowPrice": 0.07842,
-    "ClosePrice": 0.0822,
-    "Volume": 546324019
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-13T00:00:00Z",
-    "OpenPrice": 0.08216,
-    "HighPrice": 0.09192,
-    "LowPrice": 0.07942,
-    "ClosePrice": 0.08697,
-    "Volume": 688347847
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-06T00:00:00Z",
-    "OpenPrice": 0.09207,
-    "HighPrice": 0.09332,
-    "LowPrice": 0.0789,
-    "ClosePrice": 0.08216,
-    "Volume": 327756102
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-30T00:00:00Z",
-    "OpenPrice": 0.09009,
-    "HighPrice": 0.09976,
-    "LowPrice": 0.0845,
-    "ClosePrice": 0.09207,
-    "Volume": 162134232
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-23T00:00:00Z",
-    "OpenPrice": 0.08824,
-    "HighPrice": 0.09371,
-    "LowPrice": 0.08169,
-    "ClosePrice": 0.09009,
-    "Volume": 151092207
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-16T00:00:00Z",
-    "OpenPrice": 0.08609,
-    "HighPrice": 0.09337,
-    "LowPrice": 0.07788,
-    "ClosePrice": 0.08824,
-    "Volume": 223769417.25702196
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-09T00:00:00Z",
-    "OpenPrice": 0.07364,
-    "HighPrice": 0.09258,
-    "LowPrice": 0.07304,
-    "ClosePrice": 0.08609,
-    "Volume": 939924879
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-02T00:00:00Z",
-    "OpenPrice": 0.07024,
-    "HighPrice": 0.07522,
-    "LowPrice": 0.06907,
-    "ClosePrice": 0.07364,
-    "Volume": 645655249
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-26T00:00:00Z",
-    "OpenPrice": 0.07601,
-    "HighPrice": 0.07653,
-    "LowPrice": 0.06601,
-    "ClosePrice": 0.07024,
-    "Volume": 664630414
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-19T00:00:00Z",
-    "OpenPrice": 0.07846,
-    "HighPrice": 0.0795,
-    "LowPrice": 0.06998,
-    "ClosePrice": 0.07601,
-    "Volume": 2231337796
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-12T00:00:00Z",
-    "OpenPrice": 0.09271,
-    "HighPrice": 0.09423,
-    "LowPrice": 0.07398,
-    "ClosePrice": 0.07846,
-    "Volume": 2115039603
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-05T00:00:00Z",
-    "OpenPrice": 0.10406,
-    "HighPrice": 0.11179,
-    "LowPrice": 0.09166,
-    "ClosePrice": 0.09271,
-    "Volume": 881928009.3778881
-  },
-  {
-    "ID": 0,
-    "Symbol": "DOGEUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-11-28T00:00:00Z",
-    "OpenPrice": 0.0987,
-    "HighPrice": 0.11,
-    "LowPrice": 0.09056,
-    "ClosePrice": 0.10406,
-    "Volume": 15975919087
-  }
-]
+{
+  "code": "0",
+  "msg": "Success",
+  "data": [
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.19535",
+      "high": "0.20738",
+      "low": "0.18496",
+      "close": "0.20579",
+      "volume": "576966387",
+      "ts": "2025-10-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.20714",
+      "high": "0.2183",
+      "low": "0.17556",
+      "close": "0.19535",
+      "volume": "1000785277",
+      "ts": "2025-10-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.25284",
+      "high": "0.27038",
+      "low": "0.09506",
+      "close": "0.20714",
+      "volume": "1682364312",
+      "ts": "2025-10-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23735",
+      "high": "0.26533",
+      "low": "0.22633",
+      "close": "0.25284",
+      "volume": "651286715",
+      "ts": "2025-09-29T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.26075",
+      "high": "0.26234",
+      "low": "0.22048",
+      "close": "0.23735",
+      "volume": "825907377",
+      "ts": "2025-09-22T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.27795",
+      "high": "0.28878",
+      "low": "0.25702",
+      "close": "0.26075",
+      "volume": "846906065",
+      "ts": "2025-09-15T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.22876",
+      "high": "0.30678",
+      "low": "0.22655",
+      "close": "0.27795",
+      "volume": "1196991285",
+      "ts": "2025-09-08T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.21371",
+      "high": "0.22926",
+      "low": "0.20477",
+      "close": "0.22876",
+      "volume": "541996296",
+      "ts": "2025-09-01T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23186",
+      "high": "0.23459",
+      "low": "0.20585",
+      "close": "0.21371",
+      "volume": "606847547",
+      "ts": "2025-08-25T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23456",
+      "high": "0.24494",
+      "low": "0.20783",
+      "close": "0.23186",
+      "volume": "931384853",
+      "ts": "2025-08-18T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23384",
+      "high": "0.25574",
+      "low": "0.21653",
+      "close": "0.23456",
+      "volume": "955513780",
+      "ts": "2025-08-11T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.19872",
+      "high": "0.24675",
+      "low": "0.19561",
+      "close": "0.23384",
+      "volume": "620621958",
+      "ts": "2025-08-04T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.24071",
+      "high": "0.24858",
+      "low": "0.1886",
+      "close": "0.19872",
+      "volume": "703291898",
+      "ts": "2025-07-28T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.27375",
+      "high": "0.28746",
+      "low": "0.22092",
+      "close": "0.24071",
+      "volume": "1049866813",
+      "ts": "2025-07-21T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.19855",
+      "high": "0.27826",
+      "low": "0.18847",
+      "close": "0.27375",
+      "volume": "1245157563",
+      "ts": "2025-07-14T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.17196",
+      "high": "0.21372",
+      "low": "0.16569",
+      "close": "0.19855",
+      "volume": "650626011",
+      "ts": "2025-07-07T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.16944",
+      "high": "0.17541",
+      "low": "0.15655",
+      "close": "0.17196",
+      "volume": "384027379",
+      "ts": "2025-06-30T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.15128",
+      "high": "0.17",
+      "low": "0.14863",
+      "close": "0.16944",
+      "volume": "351144692",
+      "ts": "2025-06-23T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.17555",
+      "high": "0.18114",
+      "low": "0.14271",
+      "close": "0.15128",
+      "volume": "495376628",
+      "ts": "2025-06-16T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.18417",
+      "high": "0.20662",
+      "low": "0.1699",
+      "close": "0.17555",
+      "volume": "560641728",
+      "ts": "2025-06-09T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.19364",
+      "high": "0.20052",
+      "low": "0.16801",
+      "close": "0.18417",
+      "volume": "490699202",
+      "ts": "2025-06-02T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.2249",
+      "high": "0.23214",
+      "low": "0.18555",
+      "close": "0.19364",
+      "volume": "708484876",
+      "ts": "2025-05-26T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23307",
+      "high": "0.2544",
+      "low": "0.21396",
+      "close": "0.2249",
+      "volume": "771190054",
+      "ts": "2025-05-19T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23181",
+      "high": "0.25337",
+      "low": "0.21075",
+      "close": "0.23307",
+      "volume": "854185296",
+      "ts": "2025-05-12T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.17048",
+      "high": "0.25961",
+      "low": "0.16426",
+      "close": "0.23181",
+      "volume": "772258623",
+      "ts": "2025-05-05T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.17933",
+      "high": "0.18447",
+      "low": "0.16676",
+      "close": "0.17048",
+      "volume": "399731164",
+      "ts": "2025-04-28T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.15526",
+      "high": "0.19299",
+      "low": "0.15502",
+      "close": "0.17933",
+      "volume": "640593121",
+      "ts": "2025-04-21T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.16259",
+      "high": "0.16961",
+      "low": "0.15019",
+      "close": "0.15526",
+      "volume": "331612528",
+      "ts": "2025-04-14T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.14927",
+      "high": "0.16948",
+      "low": "0.12988",
+      "close": "0.16259",
+      "volume": "829190285",
+      "ts": "2025-04-07T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.1665",
+      "high": "0.17999",
+      "low": "0.14583",
+      "close": "0.14927",
+      "volume": "544259454",
+      "ts": "2025-03-31T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.17261",
+      "high": "0.20579",
+      "low": "0.16444",
+      "close": "0.1665",
+      "volume": "585755335",
+      "ts": "2025-03-24T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.16816",
+      "high": "0.17916",
+      "low": "0.16278",
+      "close": "0.17261",
+      "volume": "343210038",
+      "ts": "2025-03-17T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.16805",
+      "high": "0.18094",
+      "low": "0.1428",
+      "close": "0.16816",
+      "volume": "657648243",
+      "ts": "2025-03-10T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.23936",
+      "high": "0.24056",
+      "low": "0.16538",
+      "close": "0.16805",
+      "volume": "700020966",
+      "ts": "2025-03-03T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.24285",
+      "high": "0.24397",
+      "low": "0.18154",
+      "close": "0.23936",
+      "volume": "874357328",
+      "ts": "2025-02-24T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.26554",
+      "high": "0.26885",
+      "low": "0.2344",
+      "close": "0.24285",
+      "volume": "375220378",
+      "ts": "2025-02-17T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.24892",
+      "high": "0.286725",
+      "low": "0.2416",
+      "close": "0.26554",
+      "volume": "637710743",
+      "ts": "2025-02-10T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.26797",
+      "high": "0.29295",
+      "low": "0.20218",
+      "close": "0.24892",
+      "volume": "1470176086",
+      "ts": "2025-02-03T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.33605",
+      "high": "0.34174",
+      "low": "0.25004",
+      "close": "0.26797",
+      "volume": "1013715559",
+      "ts": "2025-01-27T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.35829",
+      "high": "0.40233",
+      "low": "0.33506",
+      "close": "0.33605",
+      "volume": "1330637511",
+      "ts": "2025-01-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.33591",
+      "high": "0.43403",
+      "low": "0.3099",
+      "close": "0.35829",
+      "volume": "1831135131",
+      "ts": "2025-01-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.38231",
+      "high": "0.39829",
+      "low": "0.3143",
+      "close": "0.33591",
+      "volume": "1061897215.36",
+      "ts": "2025-01-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.31435",
+      "high": "0.39873",
+      "low": "0.30669",
+      "close": "0.38231",
+      "volume": "969583334",
+      "ts": "2024-12-30T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.3126",
+      "high": "0.34221",
+      "low": "0.30283",
+      "close": "0.31435",
+      "volume": "858192409",
+      "ts": "2024-12-23T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.40656",
+      "high": "0.415",
+      "low": "0.26236",
+      "close": "0.3126",
+      "volume": "2478175904",
+      "ts": "2024-12-16T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.46634",
+      "high": "0.46739",
+      "low": "0.36551",
+      "close": "0.40656",
+      "volume": "2852513244",
+      "ts": "2024-12-09T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.4405",
+      "high": "0.48434",
+      "low": "0.38823",
+      "close": "0.46634",
+      "volume": "4227085986",
+      "ts": "2024-12-02T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.43026",
+      "high": "0.44971",
+      "low": "0.36507",
+      "close": "0.4405",
+      "volume": "3259341334",
+      "ts": "2024-11-25T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.36697",
+      "high": "0.47996",
+      "low": "0.35745",
+      "close": "0.43026",
+      "volume": "5408105211",
+      "ts": "2024-11-18T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.27771",
+      "high": "0.43849",
+      "low": "0.27274",
+      "close": "0.36697",
+      "volume": "9438852992",
+      "ts": "2024-11-11T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.15137",
+      "high": "0.29771",
+      "low": "0.1482",
+      "close": "0.27771",
+      "volume": "5845597983",
+      "ts": "2024-11-04T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.1443",
+      "high": "0.17974",
+      "low": "0.14115",
+      "close": "0.15137",
+      "volume": "1967935355",
+      "ts": "2024-10-28T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.14218",
+      "high": "0.14974",
+      "low": "0.12789",
+      "close": "0.1443",
+      "volume": "1157447880",
+      "ts": "2024-10-21T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.1114",
+      "high": "0.14695",
+      "low": "0.10931",
+      "close": "0.14218",
+      "volume": "1365462560",
+      "ts": "2024-10-14T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.11158",
+      "high": "0.11546",
+      "low": "0.10311",
+      "close": "0.1114",
+      "volume": "298651528",
+      "ts": "2024-10-07T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.12438",
+      "high": "0.12464",
+      "low": "0.10107",
+      "close": "0.11158",
+      "volume": "366843464",
+      "ts": "2024-09-30T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.106322",
+      "high": "0.13202",
+      "low": "0.10414",
+      "close": "0.12438",
+      "volume": "460270557",
+      "ts": "2024-09-23T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.10281",
+      "high": "0.11048",
+      "low": "0.09836",
+      "close": "0.106322",
+      "volume": "230794476",
+      "ts": "2024-09-16T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09616",
+      "high": "0.10846",
+      "low": "0.09572",
+      "close": "0.10281",
+      "volume": "415068915",
+      "ts": "2024-09-09T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09509",
+      "high": "0.10079",
+      "low": "0.08895",
+      "close": "0.09616",
+      "volume": "618364854",
+      "ts": "2024-09-02T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.10959",
+      "high": "0.11031",
+      "low": "0.09398",
+      "close": "0.09509",
+      "volume": "601403589",
+      "ts": "2024-08-26T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.10005",
+      "high": "0.11544",
+      "low": "0.0986",
+      "close": "0.10959",
+      "volume": "664891341",
+      "ts": "2024-08-19T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.100584",
+      "high": "0.10902",
+      "low": "0.0975",
+      "close": "0.10005",
+      "volume": "522207548",
+      "ts": "2024-08-12T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.114016",
+      "high": "0.110985",
+      "low": "0.080504",
+      "close": "0.100584",
+      "volume": "940327633",
+      "ts": "2024-08-05T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.130046",
+      "high": "0.135095",
+      "low": "0.1083",
+      "close": "0.114016",
+      "volume": "242711144.568",
+      "ts": "2024-07-29T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.140265",
+      "high": "0.142664",
+      "low": "0.120125",
+      "close": "0.130046",
+      "volume": "429270888",
+      "ts": "2024-07-22T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.108344",
+      "high": "0.143704",
+      "low": "0.114574",
+      "close": "0.140265",
+      "volume": "444751161",
+      "ts": "2024-07-15T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.104145",
+      "high": "0.111156",
+      "low": "0.098904",
+      "close": "0.108344",
+      "volume": "92934170.072",
+      "ts": "2024-07-08T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.124484",
+      "high": "0.127485",
+      "low": "0.092024",
+      "close": "0.104145",
+      "volume": "417827296",
+      "ts": "2024-07-01T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.122224",
+      "high": "0.128654",
+      "low": "0.11389",
+      "close": "0.124484",
+      "volume": "276786196",
+      "ts": "2024-06-24T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.137124",
+      "high": "0.138216",
+      "low": "0.114084",
+      "close": "0.122224",
+      "volume": "366640057",
+      "ts": "2024-06-17T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.146795",
+      "high": "0.150576",
+      "low": "0.132004",
+      "close": "0.137124",
+      "volume": "321429423",
+      "ts": "2024-06-10T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.157115",
+      "high": "0.165726",
+      "low": "0.140125",
+      "close": "0.146795",
+      "volume": "332773580",
+      "ts": "2024-06-03T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.166205",
+      "high": "0.173496",
+      "low": "0.154314",
+      "close": "0.157115",
+      "volume": "471326142",
+      "ts": "2024-05-27T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.149084",
+      "high": "0.174836",
+      "low": "0.147694",
+      "close": "0.166205",
+      "volume": "759081493",
+      "ts": "2024-05-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.141235",
+      "high": "0.159306",
+      "low": "0.135866",
+      "close": "0.149084",
+      "volume": "564811766",
+      "ts": "2024-05-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.160975",
+      "high": "0.169114",
+      "low": "0.139409",
+      "close": "0.141235",
+      "volume": "1430300242",
+      "ts": "2024-05-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.146624",
+      "high": "0.169974",
+      "low": "0.120105",
+      "close": "0.160975",
+      "volume": "4809714815",
+      "ts": "2024-04-29T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.158246",
+      "high": "0.164275",
+      "low": "0.142896",
+      "close": "0.146624",
+      "volume": "76138620",
+      "ts": "2024-04-22T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.162125",
+      "high": "0.168945",
+      "low": "0.139034",
+      "close": "0.158246",
+      "volume": "125623316",
+      "ts": "2024-04-15T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.198845",
+      "high": "0.208986",
+      "low": "0.130244",
+      "close": "0.162125",
+      "volume": "244302177",
+      "ts": "2024-04-08T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.219965",
+      "high": "0.220014",
+      "low": "0.167549",
+      "close": "0.198845",
+      "volume": "838939416",
+      "ts": "2024-04-01T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.176516",
+      "high": "0.228791",
+      "low": "0.170005",
+      "close": "0.219965",
+      "volume": "1250897297",
+      "ts": "2024-03-25T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.154306",
+      "high": "0.179946",
+      "low": "0.122791",
+      "close": "0.176516",
+      "volume": "1439828241",
+      "ts": "2024-03-18T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.169965",
+      "high": "0.192849",
+      "low": "0.136635",
+      "close": "0.154306",
+      "volume": "1420471322",
+      "ts": "2024-03-11T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.153485",
+      "high": "0.206296",
+      "low": "0.126255",
+      "close": "0.169965",
+      "volume": "2633155143",
+      "ts": "2024-03-04T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.086116",
+      "high": "0.156275",
+      "low": "0.084156",
+      "close": "0.153485",
+      "volume": "2054318090",
+      "ts": "2024-02-26T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.085185",
+      "high": "0.091476",
+      "low": "0.081964",
+      "close": "0.086116",
+      "volume": "332405216",
+      "ts": "2024-02-19T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.081224",
+      "high": "0.088234",
+      "low": "0.079475",
+      "close": "0.085185",
+      "volume": "330844265",
+      "ts": "2024-02-12T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.078315",
+      "high": "0.083565",
+      "low": "0.077354",
+      "close": "0.081224",
+      "volume": "167502907",
+      "ts": "2024-02-05T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.078825",
+      "high": "0.083056",
+      "low": "0.077285",
+      "close": "0.078315",
+      "volume": "184733258",
+      "ts": "2024-01-29T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.085444",
+      "high": "0.085575",
+      "low": "0.076004",
+      "close": "0.078825",
+      "volume": "391353985",
+      "ts": "2024-01-22T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.080014",
+      "high": "0.090525",
+      "low": "0.074844",
+      "close": "0.085444",
+      "volume": "355374867",
+      "ts": "2024-01-15T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.078235",
+      "high": "0.087931",
+      "low": "0.074135",
+      "close": "0.080014",
+      "volume": "599081975",
+      "ts": "2024-01-08T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.089555",
+      "high": "0.094365",
+      "low": "0.0751",
+      "close": "0.078235",
+      "volume": "606468027",
+      "ts": "2024-01-01T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.091685",
+      "high": "0.095415",
+      "low": "0.08705",
+      "close": "0.089555",
+      "volume": "377178422",
+      "ts": "2023-12-25T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.092955",
+      "high": "0.097835",
+      "low": "0.086455",
+      "close": "0.091685",
+      "volume": "737627018",
+      "ts": "2023-12-18T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.101865",
+      "high": "0.107245",
+      "low": "0.090015",
+      "close": "0.092955",
+      "volume": "1322666043",
+      "ts": "2023-12-11T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.085715",
+      "high": "0.106349",
+      "low": "0.085305",
+      "close": "0.101865",
+      "volume": "1947752182",
+      "ts": "2023-12-04T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.078675",
+      "high": "0.087345",
+      "low": "0.076735",
+      "close": "0.085715",
+      "volume": "886904666",
+      "ts": "2023-11-27T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.080455",
+      "high": "0.082175",
+      "low": "0.070675",
+      "close": "0.078675",
+      "volume": "775431251",
+      "ts": "2023-11-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.077955",
+      "high": "0.087515",
+      "low": "0.069015",
+      "close": "0.080455",
+      "volume": "2264896150",
+      "ts": "2023-11-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.071095",
+      "high": "0.081855",
+      "low": "0.06669",
+      "close": "0.077955",
+      "volume": "2388609520",
+      "ts": "2023-11-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.069355",
+      "high": "0.071735",
+      "low": "0.065785",
+      "close": "0.071095",
+      "volume": "1108759307",
+      "ts": "2023-10-30T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.061695",
+      "high": "0.075125",
+      "low": "0.061305",
+      "close": "0.069355",
+      "volume": "1545186669",
+      "ts": "2023-10-23T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.059305",
+      "high": "0.061725",
+      "low": "0.057815",
+      "close": "0.061695",
+      "volume": "398356832",
+      "ts": "2023-10-16T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.060955",
+      "high": "0.060995",
+      "low": "0.056945",
+      "close": "0.059305",
+      "volume": "382016721",
+      "ts": "2023-10-09T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.063185",
+      "high": "0.064155",
+      "low": "0.060105",
+      "close": "0.060955",
+      "volume": "351651239",
+      "ts": "2023-10-02T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06068",
+      "high": "0.063575",
+      "low": "0.05941",
+      "close": "0.063185",
+      "volume": "385009926",
+      "ts": "2023-09-25T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06146",
+      "high": "0.06347",
+      "low": "0.06045",
+      "close": "0.06068",
+      "volume": "946626702",
+      "ts": "2023-09-18T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.0613",
+      "high": "0.06298",
+      "low": "0.0592",
+      "close": "0.06146",
+      "volume": "479760207",
+      "ts": "2023-09-11T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06317",
+      "high": "0.06461",
+      "low": "0.05949",
+      "close": "0.0613",
+      "volume": "352475914",
+      "ts": "2023-09-04T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06317",
+      "high": "0.06855",
+      "low": "0.06187",
+      "close": "0.06317",
+      "volume": "434544078",
+      "ts": "2023-08-28T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06385",
+      "high": "0.06523",
+      "low": "0.06039",
+      "close": "0.06317",
+      "volume": "298871827",
+      "ts": "2023-08-21T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.0748",
+      "high": "0.07709",
+      "low": "0.05568",
+      "close": "0.06385",
+      "volume": "592749770",
+      "ts": "2023-08-14T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07426",
+      "high": "0.07744",
+      "low": "0.07189",
+      "close": "0.0748",
+      "volume": "431191965",
+      "ts": "2023-08-07T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07803",
+      "high": "0.07981",
+      "low": "0.07256",
+      "close": "0.07426",
+      "volume": "246203184",
+      "ts": "2023-07-31T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.0718",
+      "high": "0.08372",
+      "low": "0.07018",
+      "close": "0.07803",
+      "volume": "1103234327",
+      "ts": "2023-07-24T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06951",
+      "high": "0.07689",
+      "low": "0.06706",
+      "close": "0.0718",
+      "volume": "1542154536",
+      "ts": "2023-07-17T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06537",
+      "high": "0.07512",
+      "low": "0.06332",
+      "close": "0.06951",
+      "volume": "1723521589",
+      "ts": "2023-07-10T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06801",
+      "high": "0.07182",
+      "low": "0.06413",
+      "close": "0.06537",
+      "volume": "825234669",
+      "ts": "2023-07-03T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06671",
+      "high": "0.07137",
+      "low": "0.0603",
+      "close": "0.06801",
+      "volume": "1458444945",
+      "ts": "2023-06-26T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06212",
+      "high": "0.07011",
+      "low": "0.06076",
+      "close": "0.06671",
+      "volume": "1164616261",
+      "ts": "2023-06-19T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.06151",
+      "high": "0.06396",
+      "low": "0.05823",
+      "close": "0.06212",
+      "volume": "999497724",
+      "ts": "2023-06-12T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07248",
+      "high": "0.07269",
+      "low": "0.05393",
+      "close": "0.06151",
+      "volume": "1813323988",
+      "ts": "2023-06-05T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07353",
+      "high": "0.07398",
+      "low": "0.07072",
+      "close": "0.07248",
+      "volume": "584239933",
+      "ts": "2023-05-29T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07211",
+      "high": "0.07401",
+      "low": "0.06871",
+      "close": "0.07353",
+      "volume": "768384869",
+      "ts": "2023-05-22T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07149",
+      "high": "0.07545",
+      "low": "0.07154",
+      "close": "0.07211",
+      "volume": "708579566",
+      "ts": "2023-05-15T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07654",
+      "high": "0.07708",
+      "low": "0.06916",
+      "close": "0.07149",
+      "volume": "341567689",
+      "ts": "2023-05-08T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07947",
+      "high": "0.08145",
+      "low": "0.07577",
+      "close": "0.07654",
+      "volume": "392709282",
+      "ts": "2023-05-01T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07879",
+      "high": "0.08358",
+      "low": "0.07486",
+      "close": "0.07947",
+      "volume": "496208734",
+      "ts": "2023-04-24T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09044",
+      "high": "0.09497",
+      "low": "0.07646",
+      "close": "0.07879",
+      "volume": "1549739358",
+      "ts": "2023-04-17T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.08316",
+      "high": "0.09179",
+      "low": "0.08062",
+      "close": "0.09044",
+      "volume": "825038572",
+      "ts": "2023-04-10T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07903",
+      "high": "0.10463",
+      "low": "0.07606",
+      "close": "0.08316",
+      "volume": "2228771186",
+      "ts": "2023-04-03T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07434",
+      "high": "0.08555",
+      "low": "0.07125",
+      "close": "0.07903",
+      "volume": "694699271",
+      "ts": "2023-03-27T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07448",
+      "high": "0.07911",
+      "low": "0.07035",
+      "close": "0.07434",
+      "volume": "985149111.3570108",
+      "ts": "2023-03-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07048",
+      "high": "0.07887",
+      "low": "0.06744",
+      "close": "0.07448",
+      "volume": "971457365",
+      "ts": "2023-03-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07655",
+      "high": "0.0723",
+      "low": "0.0626",
+      "close": "0.07048",
+      "volume": "464527720",
+      "ts": "2023-03-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.0822",
+      "high": "0.08308",
+      "low": "0.07337",
+      "close": "0.07655",
+      "volume": "305638493",
+      "ts": "2023-02-27T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.08697",
+      "high": "0.08881",
+      "low": "0.07842",
+      "close": "0.0822",
+      "volume": "546324019",
+      "ts": "2023-02-20T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.08216",
+      "high": "0.09192",
+      "low": "0.07942",
+      "close": "0.08697",
+      "volume": "688347847",
+      "ts": "2023-02-13T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09207",
+      "high": "0.09332",
+      "low": "0.0789",
+      "close": "0.08216",
+      "volume": "327756102",
+      "ts": "2023-02-06T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09009",
+      "high": "0.09976",
+      "low": "0.0845",
+      "close": "0.09207",
+      "volume": "162134232",
+      "ts": "2023-01-30T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.08824",
+      "high": "0.09371",
+      "low": "0.08169",
+      "close": "0.09009",
+      "volume": "151092207",
+      "ts": "2023-01-23T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.08609",
+      "high": "0.09337",
+      "low": "0.07788",
+      "close": "0.08824",
+      "volume": "223769417.25702196",
+      "ts": "2023-01-16T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07364",
+      "high": "0.09258",
+      "low": "0.07304",
+      "close": "0.08609",
+      "volume": "939924879",
+      "ts": "2023-01-09T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07024",
+      "high": "0.07522",
+      "low": "0.06907",
+      "close": "0.07364",
+      "volume": "645655249",
+      "ts": "2023-01-02T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07601",
+      "high": "0.07653",
+      "low": "0.06601",
+      "close": "0.07024",
+      "volume": "664630414",
+      "ts": "2022-12-26T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.07846",
+      "high": "0.0795",
+      "low": "0.06998",
+      "close": "0.07601",
+      "volume": "2231337796",
+      "ts": "2022-12-19T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.09271",
+      "high": "0.09423",
+      "low": "0.07398",
+      "close": "0.07846",
+      "volume": "2115039603",
+      "ts": "2022-12-12T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.10406",
+      "high": "0.11179",
+      "low": "0.09166",
+      "close": "0.09271",
+      "volume": "881928009.3778881",
+      "ts": "2022-12-05T00:00:00Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "open": "0.0987",
+      "high": "0.11",
+      "low": "0.09056",
+      "close": "0.10406",
+      "volume": "15975919087",
+      "ts": "2022-11-28T00:00:00Z"
+    }
+  ],
+  "success": true
+}

@@ -1,1795 +1,1474 @@
-[
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-20T00:00:00Z",
-    "OpenPrice": 108643.02,
-    "HighPrice": 115465.06,
-    "LowPrice": 106700,
-    "ClosePrice": 114559.4,
-    "Volume": 18508.84624
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-13T00:00:00Z",
-    "OpenPrice": 114958.81,
-    "HighPrice": 115963.59,
-    "LowPrice": 103580,
-    "ClosePrice": 108643.02,
-    "Volume": 22663.76576
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-10-06T00:00:00Z",
-    "OpenPrice": 123482.32,
-    "HighPrice": 126149.99,
-    "LowPrice": 102292.48,
-    "ClosePrice": 114958.81,
-    "Volume": 28253.05286
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-29T00:00:00Z",
-    "OpenPrice": 112163.95,
-    "HighPrice": 125707.68,
-    "LowPrice": 111560.65,
-    "ClosePrice": 123482.32,
-    "Volume": 18317.9304
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-22T00:00:00Z",
-    "OpenPrice": 115235.44,
-    "HighPrice": 115379.25,
-    "LowPrice": 108620.07,
-    "ClosePrice": 112163.95,
-    "Volume": 14803.39611
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-15T00:00:00Z",
-    "OpenPrice": 115280,
-    "HighPrice": 117899.99,
-    "LowPrice": 114386,
-    "ClosePrice": 115235.44,
-    "Volume": 10763.03056
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-08T00:00:00Z",
-    "OpenPrice": 111137.34,
-    "HighPrice": 116665.63,
-    "LowPrice": 110621.78,
-    "ClosePrice": 115280,
-    "Volume": 12704.65514
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-09-01T00:00:00Z",
-    "OpenPrice": 108246.35,
-    "HighPrice": 113384.62,
-    "LowPrice": 107255,
-    "ClosePrice": 111137.34,
-    "Volume": 12493.53409
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-25T00:00:00Z",
-    "OpenPrice": 113493.59,
-    "HighPrice": 113667.28,
-    "LowPrice": 107355.98,
-    "ClosePrice": 108246.35,
-    "Volume": 14249.76213
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-18T00:00:00Z",
-    "OpenPrice": 117405.01,
-    "HighPrice": 117543.75,
-    "LowPrice": 111105.06,
-    "ClosePrice": 113493.59,
-    "Volume": 13619.83126
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-11T00:00:00Z",
-    "OpenPrice": 119294.26,
-    "HighPrice": 124474,
-    "LowPrice": 116803.99,
-    "ClosePrice": 117405.01,
-    "Volume": 14576.97676
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-08-04T00:00:00Z",
-    "OpenPrice": 114208.81,
-    "HighPrice": 119311.11,
-    "LowPrice": 112650.01,
-    "ClosePrice": 119294.26,
-    "Volume": 9260.02401
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-28T00:00:00Z",
-    "OpenPrice": 119415.31,
-    "HighPrice": 119799.99,
-    "LowPrice": 111931.96,
-    "ClosePrice": 114208.81,
-    "Volume": 12034.28163
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-21T00:00:00Z",
-    "OpenPrice": 117265.12,
-    "HighPrice": 120247.8,
-    "LowPrice": 114723.16,
-    "ClosePrice": 119415.31,
-    "Volume": 13843.58698
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-14T00:00:00Z",
-    "OpenPrice": 119086.65,
-    "HighPrice": 123217.99,
-    "LowPrice": 115736.92,
-    "ClosePrice": 117265.12,
-    "Volume": 14172.43657
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-07-07T00:00:00Z",
-    "OpenPrice": 109203.84,
-    "HighPrice": 119479.02,
-    "LowPrice": 107438.49,
-    "ClosePrice": 119086.65,
-    "Volume": 11379.28582
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-30T00:00:00Z",
-    "OpenPrice": 108356.93,
-    "HighPrice": 110515.81,
-    "LowPrice": 105100.2,
-    "ClosePrice": 109203.84,
-    "Volume": 8071.53265
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-23T00:00:00Z",
-    "OpenPrice": 100963.87,
-    "HighPrice": 108528.5,
-    "LowPrice": 99616.61,
-    "ClosePrice": 108356.93,
-    "Volume": 10241.64921
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-16T00:00:00Z",
-    "OpenPrice": 105594.02,
-    "HighPrice": 108948.5,
-    "LowPrice": 98200.01,
-    "ClosePrice": 100963.87,
-    "Volume": 12433.91123
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-09T00:00:00Z",
-    "OpenPrice": 105734,
-    "HighPrice": 110528.2,
-    "LowPrice": 102665.39,
-    "ClosePrice": 105594.02,
-    "Volume": 12588.26629
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-06-02T00:00:00Z",
-    "OpenPrice": 105642.93,
-    "HighPrice": 106793.41,
-    "LowPrice": 100380.01,
-    "ClosePrice": 105734,
-    "Volume": 11074.07886
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-26T00:00:00Z",
-    "OpenPrice": 109004.2,
-    "HighPrice": 110718,
-    "LowPrice": 103074.94,
-    "ClosePrice": 105642.93,
-    "Volume": 20165.10251
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-19T00:00:00Z",
-    "OpenPrice": 106454.27,
-    "HighPrice": 111980,
-    "LowPrice": 102042.01,
-    "ClosePrice": 109004.2,
-    "Volume": 33982.04663
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-12T00:00:00Z",
-    "OpenPrice": 104118.01,
-    "HighPrice": 106650.64,
-    "LowPrice": 100750.98,
-    "ClosePrice": 106454.27,
-    "Volume": 24641.85396
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-05-05T00:00:00Z",
-    "OpenPrice": 94277.61,
-    "HighPrice": 104984.57,
-    "LowPrice": 93388.01,
-    "ClosePrice": 104118.01,
-    "Volume": 26746.66235
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-28T00:00:00Z",
-    "OpenPrice": 93749.29,
-    "HighPrice": 97895.68,
-    "LowPrice": 92800.01,
-    "ClosePrice": 94277.61,
-    "Volume": 21143.56506
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-21T00:00:00Z",
-    "OpenPrice": 85179.25,
-    "HighPrice": 95749.02,
-    "LowPrice": 85144.76,
-    "ClosePrice": 93749.29,
-    "Volume": 28773.47643
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-14T00:00:00Z",
-    "OpenPrice": 83760,
-    "HighPrice": 86471.16,
-    "LowPrice": 83111.64,
-    "ClosePrice": 85179.25,
-    "Volume": 18902.0384
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-04-07T00:00:00Z",
-    "OpenPrice": 78424.51,
-    "HighPrice": 86099.99,
-    "LowPrice": 74508,
-    "ClosePrice": 83760,
-    "Volume": 47668.08346
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-31T00:00:00Z",
-    "OpenPrice": 82378.9,
-    "HighPrice": 88285.76,
-    "LowPrice": 77158,
-    "ClosePrice": 78424.51,
-    "Volume": 30305.16355
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-24T00:00:00Z",
-    "OpenPrice": 86082.49,
-    "HighPrice": 88765.43,
-    "LowPrice": 81565,
-    "ClosePrice": 82378.9,
-    "Volume": 22262.04763
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-17T00:00:00Z",
-    "OpenPrice": 82576.89,
-    "HighPrice": 87440.41,
-    "LowPrice": 81150,
-    "ClosePrice": 86082.49,
-    "Volume": 18609.4375
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-10T00:00:00Z",
-    "OpenPrice": 80734.3,
-    "HighPrice": 85309.71,
-    "LowPrice": 76606.01,
-    "ClosePrice": 82576.89,
-    "Volume": 31694.44199
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-03-03T00:00:00Z",
-    "OpenPrice": 94269.99,
-    "HighPrice": 94416.46,
-    "LowPrice": 80005,
-    "ClosePrice": 80734.3,
-    "Volume": 41819.23668
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-24T00:00:00Z",
-    "OpenPrice": 96258,
-    "HighPrice": 96500,
-    "LowPrice": 78262.34,
-    "ClosePrice": 94269.99,
-    "Volume": 51333.54546
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-17T00:00:00Z",
-    "OpenPrice": 96118.12,
-    "HighPrice": 99475,
-    "LowPrice": 93388.09,
-    "ClosePrice": 96258,
-    "Volume": 30433.37045
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-10T00:00:00Z",
-    "OpenPrice": 96463.49,
-    "HighPrice": 98826,
-    "LowPrice": 94088.42,
-    "ClosePrice": 96118.12,
-    "Volume": 28356.39909
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-02-03T00:00:00Z",
-    "OpenPrice": 97700.59,
-    "HighPrice": 102482.42,
-    "LowPrice": 91242.02,
-    "ClosePrice": 96463.49,
-    "Volume": 42335.49063
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-27T00:00:00Z",
-    "OpenPrice": 102620,
-    "HighPrice": 106453.45,
-    "LowPrice": 96151.89,
-    "ClosePrice": 97700.59,
-    "Volume": 36215.08716
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-20T00:00:00Z",
-    "OpenPrice": 101313.56,
-    "HighPrice": 109574.99,
-    "LowPrice": 99550,
-    "ClosePrice": 102620,
-    "Volume": 49549.29415
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-13T00:00:00Z",
-    "OpenPrice": 94544.99,
-    "HighPrice": 106422.43,
-    "LowPrice": 89257.5,
-    "ClosePrice": 101313.56,
-    "Volume": 44138.30546
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2025-01-06T00:00:00Z",
-    "OpenPrice": 98363.61,
-    "HighPrice": 102700.03,
-    "LowPrice": 91208.85,
-    "ClosePrice": 94544.99,
-    "Volume": 31807.27544352
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-30T00:00:00Z",
-    "OpenPrice": 93738.2,
-    "HighPrice": 98976.91,
-    "LowPrice": 91537.9,
-    "ClosePrice": 98363.61,
-    "Volume": 21797.31013
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-23T00:00:00Z",
-    "OpenPrice": 95186.28,
-    "HighPrice": 99963.7,
-    "LowPrice": 92522.01,
-    "ClosePrice": 93738.2,
-    "Volume": 26850.56435
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-16T00:00:00Z",
-    "OpenPrice": 104463.82,
-    "HighPrice": 108340,
-    "LowPrice": 92284.01,
-    "ClosePrice": 95186.28,
-    "Volume": 54622.86471
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-09T00:00:00Z",
-    "OpenPrice": 101109.59,
-    "HighPrice": 105219.99,
-    "LowPrice": 94253,
-    "ClosePrice": 104463.82,
-    "Volume": 59383.53759
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-12-02T00:00:00Z",
-    "OpenPrice": 97185.18,
-    "HighPrice": 104043.73,
-    "LowPrice": 91377.01,
-    "ClosePrice": 101109.59,
-    "Volume": 83009.86069
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-25T00:00:00Z",
-    "OpenPrice": 97900.05,
-    "HighPrice": 98871.8,
-    "LowPrice": 90791.11,
-    "ClosePrice": 97185.18,
-    "Volume": 65365.30186
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-18T00:00:00Z",
-    "OpenPrice": 89848,
-    "HighPrice": 99588.01,
-    "LowPrice": 89376.9,
-    "ClosePrice": 97900.05,
-    "Volume": 87356.21355
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-11T00:00:00Z",
-    "OpenPrice": 80372.01,
-    "HighPrice": 93257.75,
-    "LowPrice": 80216.01,
-    "ClosePrice": 89848,
-    "Volume": 128566.37465
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-11-04T00:00:00Z",
-    "OpenPrice": 68775.99,
-    "HighPrice": 81449.97,
-    "LowPrice": 66835,
-    "ClosePrice": 80372.01,
-    "Volume": 90219.54785
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-28T00:00:00Z",
-    "OpenPrice": 68021.7,
-    "HighPrice": 73620.12,
-    "LowPrice": 67481.66,
-    "ClosePrice": 68775.99,
-    "Volume": 45305.83339
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-21T00:00:00Z",
-    "OpenPrice": 69031.99,
-    "HighPrice": 69519.52,
-    "LowPrice": 65260,
-    "ClosePrice": 68021.7,
-    "Volume": 33693.14046
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-14T00:00:00Z",
-    "OpenPrice": 62870.02,
-    "HighPrice": 69400,
-    "LowPrice": 62457.81,
-    "ClosePrice": 69031.99,
-    "Volume": 32761.49328
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-10-07T00:00:00Z",
-    "OpenPrice": 62819.91,
-    "HighPrice": 64473.1,
-    "LowPrice": 58949,
-    "ClosePrice": 62870.02,
-    "Volume": 16001.38807
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-30T00:00:00Z",
-    "OpenPrice": 65602.01,
-    "HighPrice": 65618.8,
-    "LowPrice": 59863.98,
-    "ClosePrice": 62819.91,
-    "Volume": 18534.2967
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-23T00:00:00Z",
-    "OpenPrice": 63576,
-    "HighPrice": 66460.6,
-    "LowPrice": 62572.01,
-    "ClosePrice": 65602.01,
-    "Volume": 14443.88618
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-16T00:00:00Z",
-    "OpenPrice": 59132,
-    "HighPrice": 64133.32,
-    "LowPrice": 57500.99,
-    "ClosePrice": 63576,
-    "Volume": 19122.227
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-09T00:00:00Z",
-    "OpenPrice": 54869.95,
-    "HighPrice": 60624.54,
-    "LowPrice": 54591.97,
-    "ClosePrice": 59132,
-    "Volume": 22161.17809
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-09-02T00:00:00Z",
-    "OpenPrice": 57302.02,
-    "HighPrice": 59809.64,
-    "LowPrice": 52561.27,
-    "ClosePrice": 54869.95,
-    "Volume": 27132.07721
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-26T00:00:00Z",
-    "OpenPrice": 64220,
-    "HighPrice": 64481,
-    "LowPrice": 57205.01,
-    "ClosePrice": 57302.02,
-    "Volume": 24271.20405
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-19T00:00:00Z",
-    "OpenPrice": 58427.35,
-    "HighPrice": 64991,
-    "LowPrice": 57814,
-    "ClosePrice": 64220,
-    "Volume": 21980.39019
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-12T00:00:00Z",
-    "OpenPrice": 58711.8,
-    "HighPrice": 61766.52,
-    "LowPrice": 56105,
-    "ClosePrice": 58427.35,
-    "Volume": 23168.6725
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-08-05T00:00:00Z",
-    "OpenPrice": 61877.27,
-    "HighPrice": 62740.57,
-    "LowPrice": 49062.36,
-    "ClosePrice": 58711.8,
-    "Volume": 32331.29425
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-29T00:00:00Z",
-    "OpenPrice": 68249.89,
-    "HighPrice": 70080,
-    "LowPrice": 60504.99,
-    "ClosePrice": 61877.27,
-    "Volume": 9325.24286376
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-22T00:00:00Z",
-    "OpenPrice": 68165.33,
-    "HighPrice": 69400,
-    "LowPrice": 63462,
-    "ClosePrice": 68249.89,
-    "Volume": 9842.32109
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-15T00:00:00Z",
-    "OpenPrice": 57455.99,
-    "HighPrice": 68366.67,
-    "LowPrice": 60652,
-    "ClosePrice": 68165.33,
-    "Volume": 11284.79106
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-08T00:00:00Z",
-    "OpenPrice": 55857.81,
-    "HighPrice": 58210.88,
-    "LowPrice": 54300,
-    "ClosePrice": 57455.99,
-    "Volume": 3305.51847552
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-07-01T00:00:00Z",
-    "OpenPrice": 62772.01,
-    "HighPrice": 63861.76,
-    "LowPrice": 53536,
-    "ClosePrice": 55857.81,
-    "Volume": 13929.26844
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-24T00:00:00Z",
-    "OpenPrice": 63197.96,
-    "HighPrice": 63369.8,
-    "LowPrice": 58504.68,
-    "ClosePrice": 62772.01,
-    "Volume": 9773.45294
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-17T00:00:00Z",
-    "OpenPrice": 66676.86,
-    "HighPrice": 67295.7,
-    "LowPrice": 63178.32,
-    "ClosePrice": 63197.96,
-    "Volume": 8574.14904
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-10T00:00:00Z",
-    "OpenPrice": 69648.15,
-    "HighPrice": 70188.27,
-    "LowPrice": 65078.32,
-    "ClosePrice": 66676.86,
-    "Volume": 9616.45202
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-06-03T00:00:00Z",
-    "OpenPrice": 67765.63,
-    "HighPrice": 71975.33,
-    "LowPrice": 67612.49,
-    "ClosePrice": 69648.15,
-    "Volume": 9100.90525
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-27T00:00:00Z",
-    "OpenPrice": 68514,
-    "HighPrice": 70682.06,
-    "LowPrice": 66676.05,
-    "ClosePrice": 67765.63,
-    "Volume": 8987.62273
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-20T00:00:00Z",
-    "OpenPrice": 66273.99,
-    "HighPrice": 71979,
-    "LowPrice": 66060.3,
-    "ClosePrice": 68514,
-    "Volume": 12240.97631
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-13T00:00:00Z",
-    "OpenPrice": 61484,
-    "HighPrice": 67698.85,
-    "LowPrice": 60749.99,
-    "ClosePrice": 66273.99,
-    "Volume": 10799.72816
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-05-06T00:00:00Z",
-    "OpenPrice": 64011.99,
-    "HighPrice": 65500,
-    "LowPrice": 60197.47,
-    "ClosePrice": 61484,
-    "Volume": 7041.29876
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-29T00:00:00Z",
-    "OpenPrice": 63118.63,
-    "HighPrice": 64733.98,
-    "LowPrice": 56552.84,
-    "ClosePrice": 64011.99,
-    "Volume": 3582.97612
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-22T00:00:00Z",
-    "OpenPrice": 64940,
-    "HighPrice": 67218.24,
-    "LowPrice": 62416.84,
-    "ClosePrice": 63118.63,
-    "Volume": 2677.83702
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-15T00:00:00Z",
-    "OpenPrice": 65666.87,
-    "HighPrice": 66827.33,
-    "LowPrice": 59600.01,
-    "ClosePrice": 64940,
-    "Volume": 3422.03539
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-08T00:00:00Z",
-    "OpenPrice": 69360.38,
-    "HighPrice": 72767.23,
-    "LowPrice": 60901.26,
-    "ClosePrice": 65666.87,
-    "Volume": 7980.43025
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-04-01T00:00:00Z",
-    "OpenPrice": 71281.46,
-    "HighPrice": 71288.23,
-    "LowPrice": 64494.51,
-    "ClosePrice": 69360.38,
-    "Volume": 11181.08629
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-25T00:00:00Z",
-    "OpenPrice": 67210,
-    "HighPrice": 71769.53,
-    "LowPrice": 66385.06,
-    "ClosePrice": 71281.46,
-    "Volume": 11586.51579
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-18T00:00:00Z",
-    "OpenPrice": 68393.49,
-    "HighPrice": 68955.99,
-    "LowPrice": 60777.08,
-    "ClosePrice": 67210,
-    "Volume": 23484.65744
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-11T00:00:00Z",
-    "OpenPrice": 68955.87,
-    "HighPrice": 73777.01,
-    "LowPrice": 64536.47,
-    "ClosePrice": 68393.49,
-    "Volume": 27619.80963
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-03-04T00:00:00Z",
-    "OpenPrice": 63113.98,
-    "HighPrice": 69990,
-    "LowPrice": 59094.22,
-    "ClosePrice": 68955.87,
-    "Volume": 31259.54692
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-26T00:00:00Z",
-    "OpenPrice": 51728.84,
-    "HighPrice": 64000.01,
-    "LowPrice": 50903.53,
-    "ClosePrice": 63113.98,
-    "Volume": 21662.78155
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-19T00:00:00Z",
-    "OpenPrice": 52112.02,
-    "HighPrice": 52985,
-    "LowPrice": 50521,
-    "ClosePrice": 51728.84,
-    "Volume": 11191.33663
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-12T00:00:00Z",
-    "OpenPrice": 48299.99,
-    "HighPrice": 52816.61,
-    "LowPrice": 47711,
-    "ClosePrice": 52112.02,
-    "Volume": 15556.66915
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-02-05T00:00:00Z",
-    "OpenPrice": 42582.87,
-    "HighPrice": 48591.6,
-    "LowPrice": 42258.09,
-    "ClosePrice": 48299.99,
-    "Volume": 13142.75789
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-29T00:00:00Z",
-    "OpenPrice": 42031.04,
-    "HighPrice": 43871.31,
-    "LowPrice": 41806.69,
-    "ClosePrice": 42582.87,
-    "Volume": 10179.20358
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-22T00:00:00Z",
-    "OpenPrice": 41580.34,
-    "HighPrice": 42842.68,
-    "LowPrice": 38555,
-    "ClosePrice": 42031.04,
-    "Volume": 18359.79478
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-15T00:00:00Z",
-    "OpenPrice": 41732.35,
-    "HighPrice": 43578,
-    "LowPrice": 40291.36,
-    "ClosePrice": 41580.34,
-    "Volume": 11984.12188
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-08T00:00:00Z",
-    "OpenPrice": 43923.7,
-    "HighPrice": 48966.84,
-    "LowPrice": 41499.99,
-    "ClosePrice": 41732.35,
-    "Volume": 41147.11557
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2024-01-01T00:00:00Z",
-    "OpenPrice": 42283.58,
-    "HighPrice": 45879.63,
-    "LowPrice": 40808.91,
-    "ClosePrice": 43923.7,
-    "Volume": 26871.91974
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-25T00:00:00Z",
-    "OpenPrice": 42972.48,
-    "HighPrice": 43799.92,
-    "LowPrice": 41461.98,
-    "ClosePrice": 42283.58,
-    "Volume": 13854.15238
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-18T00:00:00Z",
-    "OpenPrice": 41374.65,
-    "HighPrice": 44398.25,
-    "LowPrice": 40542.93,
-    "ClosePrice": 42972.48,
-    "Volume": 14431.10301
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-11T00:00:00Z",
-    "OpenPrice": 43789.51,
-    "HighPrice": 43804.5,
-    "LowPrice": 40225.1,
-    "ClosePrice": 41374.65,
-    "Volume": 19763.15174
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-12-04T00:00:00Z",
-    "OpenPrice": 39972.26,
-    "HighPrice": 44700,
-    "LowPrice": 39965.99,
-    "ClosePrice": 43789.51,
-    "Volume": 60210.13137
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-27T00:00:00Z",
-    "OpenPrice": 37447.43,
-    "HighPrice": 40212.12,
-    "LowPrice": 36708.71,
-    "ClosePrice": 39972.26,
-    "Volume": 60521.05786
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-20T00:00:00Z",
-    "OpenPrice": 37358.74,
-    "HighPrice": 38407.84,
-    "LowPrice": 35641.42,
-    "ClosePrice": 37447.43,
-    "Volume": 65745.90553
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-13T00:00:00Z",
-    "OpenPrice": 37064.14,
-    "HighPrice": 37965.29,
-    "LowPrice": 34911.6,
-    "ClosePrice": 37358.74,
-    "Volume": 71994.75753
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-11-06T00:00:00Z",
-    "OpenPrice": 35011.89,
-    "HighPrice": 37969.35,
-    "LowPrice": 34527.68,
-    "ClosePrice": 37064.14,
-    "Volume": 73486.15692
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-30T00:00:00Z",
-    "OpenPrice": 34525.89,
-    "HighPrice": 35924.05,
-    "LowPrice": 34035.11,
-    "ClosePrice": 35011.89,
-    "Volume": 68196.13134
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-23T00:00:00Z",
-    "OpenPrice": 29992.46,
-    "HighPrice": 35270,
-    "LowPrice": 29883.6,
-    "ClosePrice": 34525.89,
-    "Volume": 104793.59397
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-16T00:00:00Z",
-    "OpenPrice": 27154.14,
-    "HighPrice": 30369.76,
-    "LowPrice": 27112.66,
-    "ClosePrice": 29992.46,
-    "Volume": 107138.57067
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-09T00:00:00Z",
-    "OpenPrice": 27917.05,
-    "HighPrice": 27987.93,
-    "LowPrice": 26538.66,
-    "ClosePrice": 27154.14,
-    "Volume": 62914.13332
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-10-02T00:00:00Z",
-    "OpenPrice": 27992.58,
-    "HighPrice": 28575.43,
-    "LowPrice": 27170.16,
-    "ClosePrice": 27917.05,
-    "Volume": 76276.90329
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-25T00:00:00Z",
-    "OpenPrice": 26249.45,
-    "HighPrice": 28050.84,
-    "LowPrice": 25992.99,
-    "ClosePrice": 27992.58,
-    "Volume": 66926.07897
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-18T00:00:00Z",
-    "OpenPrice": 26527.5,
-    "HighPrice": 27480,
-    "LowPrice": 26164.46,
-    "ClosePrice": 26249.45,
-    "Volume": 65086.76406
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-11T00:00:00Z",
-    "OpenPrice": 25841.61,
-    "HighPrice": 26885.33,
-    "LowPrice": 24902.08,
-    "ClosePrice": 26527.5,
-    "Volume": 35342.19838
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-09-04T00:00:00Z",
-    "OpenPrice": 25971.21,
-    "HighPrice": 26445.5,
-    "LowPrice": 25373.75,
-    "ClosePrice": 25841.61,
-    "Volume": 27824.76791
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-28T00:00:00Z",
-    "OpenPrice": 26101.78,
-    "HighPrice": 28132.99,
-    "LowPrice": 25341,
-    "ClosePrice": 25971.21,
-    "Volume": 39358.47001
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-21T00:00:00Z",
-    "OpenPrice": 26190,
-    "HighPrice": 26813.88,
-    "LowPrice": 25335.43,
-    "ClosePrice": 26101.78,
-    "Volume": 27455.56894
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-14T00:00:00Z",
-    "OpenPrice": 29303.85,
-    "HighPrice": 29695.32,
-    "LowPrice": 24374.15,
-    "ClosePrice": 26190,
-    "Volume": 43357.40879
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-08-07T00:00:00Z",
-    "OpenPrice": 29088.42,
-    "HighPrice": 30223.56,
-    "LowPrice": 28718.85,
-    "ClosePrice": 29303.85,
-    "Volume": 25231.41334
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-31T00:00:00Z",
-    "OpenPrice": 29281.08,
-    "HighPrice": 30040,
-    "LowPrice": 28590,
-    "ClosePrice": 29088.42,
-    "Volume": 27387.13394
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-24T00:00:00Z",
-    "OpenPrice": 30083.75,
-    "HighPrice": 30099.59,
-    "LowPrice": 28867.24,
-    "ClosePrice": 29281.08,
-    "Volume": 16502.02316
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-17T00:00:00Z",
-    "OpenPrice": 30232,
-    "HighPrice": 30417.46,
-    "LowPrice": 29534.93,
-    "ClosePrice": 30083.75,
-    "Volume": 12269.69159
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-10T00:00:00Z",
-    "OpenPrice": 30160.71,
-    "HighPrice": 31804.19,
-    "LowPrice": 29902.38,
-    "ClosePrice": 30232,
-    "Volume": 17941.86762
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-07-03T00:00:00Z",
-    "OpenPrice": 30617.03,
-    "HighPrice": 31500.03,
-    "LowPrice": 29710.08,
-    "ClosePrice": 30160.71,
-    "Volume": 14767.4912
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-26T00:00:00Z",
-    "OpenPrice": 30462.65,
-    "HighPrice": 31282,
-    "LowPrice": 29516.72,
-    "ClosePrice": 30617.03,
-    "Volume": 20268.18678
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-19T00:00:00Z",
-    "OpenPrice": 26339.97,
-    "HighPrice": 31408,
-    "LowPrice": 26269.7,
-    "ClosePrice": 30462.65,
-    "Volume": 27895.97722
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-12T00:00:00Z",
-    "OpenPrice": 25925.54,
-    "HighPrice": 26804.76,
-    "LowPrice": 24500,
-    "ClosePrice": 26339.97,
-    "Volume": 18514.82989
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-06-05T00:00:00Z",
-    "OpenPrice": 27117.1,
-    "HighPrice": 27377.28,
-    "LowPrice": 25356.76,
-    "ClosePrice": 25925.54,
-    "Volume": 23572.3835
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-29T00:00:00Z",
-    "OpenPrice": 28065,
-    "HighPrice": 28430.18,
-    "LowPrice": 26506.5,
-    "ClosePrice": 27117.1,
-    "Volume": 14123.9651
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-22T00:00:00Z",
-    "OpenPrice": 26747.78,
-    "HighPrice": 28248.42,
-    "LowPrice": 25876.89,
-    "ClosePrice": 28065,
-    "Volume": 16568.36545
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-15T00:00:00Z",
-    "OpenPrice": 26840,
-    "HighPrice": 27663.3,
-    "LowPrice": 26374.11,
-    "ClosePrice": 26747.78,
-    "Volume": 14343.0192116
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-08T00:00:00Z",
-    "OpenPrice": 28430.6,
-    "HighPrice": 28627.82,
-    "LowPrice": 26121.01,
-    "ClosePrice": 26840,
-    "Volume": 6581.740818
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-05-01T00:00:00Z",
-    "OpenPrice": 29219.6,
-    "HighPrice": 29820.01,
-    "LowPrice": 27667.31,
-    "ClosePrice": 28430.6,
-    "Volume": 12469.311808
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-24T00:00:00Z",
-    "OpenPrice": 27590.61,
-    "HighPrice": 30002.31,
-    "LowPrice": 26972.16,
-    "ClosePrice": 29219.6,
-    "Volume": 11932.098077
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-17T00:00:00Z",
-    "OpenPrice": 30307.09,
-    "HighPrice": 30467.57,
-    "LowPrice": 27140.37,
-    "ClosePrice": 27590.61,
-    "Volume": 19652.274677
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-10T00:00:00Z",
-    "OpenPrice": 28323.74,
-    "HighPrice": 30983.26,
-    "LowPrice": 28176.83,
-    "ClosePrice": 30307.09,
-    "Volume": 16635.723283
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-04-03T00:00:00Z",
-    "OpenPrice": 28171.88,
-    "HighPrice": 28763.1,
-    "LowPrice": 27224.33,
-    "ClosePrice": 28323.74,
-    "Volume": 8227.03341883
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-27T00:00:00Z",
-    "OpenPrice": 27969.06,
-    "HighPrice": 29177.6,
-    "LowPrice": 26536.37,
-    "ClosePrice": 28171.88,
-    "Volume": 3922.255138
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-20T00:00:00Z",
-    "OpenPrice": 27964.52,
-    "HighPrice": 28818.52,
-    "LowPrice": 26618.54,
-    "ClosePrice": 27969.06,
-    "Volume": 17780.97417578
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-13T00:00:00Z",
-    "OpenPrice": 21994.19,
-    "HighPrice": 28381.39,
-    "LowPrice": 21823.55,
-    "ClosePrice": 27964.52,
-    "Volume": 35856.360603
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-03-06T00:00:00Z",
-    "OpenPrice": 22385.15,
-    "HighPrice": 22108.27,
-    "LowPrice": 19579.12,
-    "ClosePrice": 21994.19,
-    "Volume": 13291.686319
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-27T00:00:00Z",
-    "OpenPrice": 23556.39,
-    "HighPrice": 23986.66,
-    "LowPrice": 22042.01,
-    "ClosePrice": 22385.15,
-    "Volume": 6546.490575
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-20T00:00:00Z",
-    "OpenPrice": 24275.11,
-    "HighPrice": 25232.39,
-    "LowPrice": 22773.41,
-    "ClosePrice": 23556.39,
-    "Volume": 7804.706905
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-13T00:00:00Z",
-    "OpenPrice": 21782.87,
-    "HighPrice": 25222.15,
-    "LowPrice": 21376.86,
-    "ClosePrice": 24275.11,
-    "Volume": 8382.40543657
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-02-06T00:00:00Z",
-    "OpenPrice": 22930.87,
-    "HighPrice": 23426.45,
-    "LowPrice": 21483.51,
-    "ClosePrice": 21782.87,
-    "Volume": 5222.72739652
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-30T00:00:00Z",
-    "OpenPrice": 23744.18,
-    "HighPrice": 24251.04,
-    "LowPrice": 22518,
-    "ClosePrice": 22930.87,
-    "Volume": 1450.626309
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-23T00:00:00Z",
-    "OpenPrice": 22709.77,
-    "HighPrice": 23951.9,
-    "LowPrice": 22340.67,
-    "ClosePrice": 23744.18,
-    "Volume": 2614.601957
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-16T00:00:00Z",
-    "OpenPrice": 20871.766,
-    "HighPrice": 23320.1,
-    "LowPrice": 20420.81,
-    "ClosePrice": 22709.77,
-    "Volume": 4472.403665
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-09T00:00:00Z",
-    "OpenPrice": 17127.0164,
-    "HighPrice": 21236.93,
-    "LowPrice": 17106.5221,
-    "ClosePrice": 20871.766,
-    "Volume": 64384.510591
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2023-01-02T00:00:00Z",
-    "OpenPrice": 16617.762,
-    "HighPrice": 17169.2969,
-    "LowPrice": 16550.2186,
-    "ClosePrice": 17127.0164,
-    "Volume": 36323.58314
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-26T00:00:00Z",
-    "OpenPrice": 16831.7432,
-    "HighPrice": 16965.84,
-    "LowPrice": 16342.2571,
-    "ClosePrice": 16617.762,
-    "Volume": 48475.62333
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-19T00:00:00Z",
-    "OpenPrice": 16738.56,
-    "HighPrice": 17057.44,
-    "LowPrice": 16264.995,
-    "ClosePrice": 16831.7432,
-    "Volume": 161696.452182
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-12T00:00:00Z",
-    "OpenPrice": 17091.775,
-    "HighPrice": 18360.8083,
-    "LowPrice": 16531.705,
-    "ClosePrice": 16738.56,
-    "Volume": 178927.464395
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-12-05T00:00:00Z",
-    "OpenPrice": 17106.155,
-    "HighPrice": 17415.105,
-    "LowPrice": 16683.27,
-    "ClosePrice": 17091.775,
-    "Volume": 167846.58504676
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-11-28T00:00:00Z",
-    "OpenPrice": 16428.78,
-    "HighPrice": 17324,
-    "LowPrice": 15995.27,
-    "ClosePrice": 17106.155,
-    "Volume": 1156497.863051
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-11-21T00:00:00Z",
-    "OpenPrice": 16280.23,
-    "HighPrice": 16812.63,
-    "LowPrice": 15476,
-    "ClosePrice": 16428.78,
-    "Volume": 1561058.479583
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-11-14T00:00:00Z",
-    "OpenPrice": 16329.85,
-    "HighPrice": 17190,
-    "LowPrice": 15815.21,
-    "ClosePrice": 16280.23,
-    "Volume": 1626234.48043
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-11-07T00:00:00Z",
-    "OpenPrice": 20905.58,
-    "HighPrice": 21069.77,
-    "LowPrice": 15588,
-    "ClosePrice": 16329.85,
-    "Volume": 3234391.873932
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-10-31T00:00:00Z",
-    "OpenPrice": 20627.48,
-    "HighPrice": 21480.65,
-    "LowPrice": 20031.24,
-    "ClosePrice": 20905.58,
-    "Volume": 2205754.83045
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-10-24T00:00:00Z",
-    "OpenPrice": 19570.4,
-    "HighPrice": 21085,
-    "LowPrice": 19157,
-    "ClosePrice": 20627.48,
-    "Volume": 2026392.42105
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-10-17T00:00:00Z",
-    "OpenPrice": 19262.98,
-    "HighPrice": 19706.66,
-    "LowPrice": 18650,
-    "ClosePrice": 19570.4,
-    "Volume": 1439566.24878
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-10-10T00:00:00Z",
-    "OpenPrice": 19439.02,
-    "HighPrice": 19951.87,
-    "LowPrice": 18190,
-    "ClosePrice": 19262.98,
-    "Volume": 1666942.47921
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-10-03T00:00:00Z",
-    "OpenPrice": 19056.8,
-    "HighPrice": 20475,
-    "LowPrice": 18959.68,
-    "ClosePrice": 19439.02,
-    "Volume": 1690215.44019
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-09-26T00:00:00Z",
-    "OpenPrice": 18807.38,
-    "HighPrice": 20385.86,
-    "LowPrice": 18471.28,
-    "ClosePrice": 19056.8,
-    "Volume": 2777070.91238
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-09-19T00:00:00Z",
-    "OpenPrice": 19416.18,
-    "HighPrice": 19956,
-    "LowPrice": 18125.98,
-    "ClosePrice": 18807.38,
-    "Volume": 2285541.48793
-  },
-  {
-    "ID": 0,
-    "Symbol": "BTCUSDT",
-    "Interval": "W",
-    "Timestamp": "2022-09-12T00:00:00Z",
-    "OpenPrice": 21826.87,
-    "HighPrice": 22799,
-    "LowPrice": 19320.01,
-    "ClosePrice": 19416.18,
-    "Volume": 2218565.59694
-  }
-]
+{
+  "code": "0",
+  "msg": "Success",
+  "data": [
+    {
+      "symbol": "BTCUSDT",
+      "open": "108643.02",
+      "high": "115465.06",
+      "low": "106700",
+      "close": "114559.4",
+      "volume": "18508.84624",
+      "ts": "2025-10-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "114958.81",
+      "high": "115963.59",
+      "low": "103580",
+      "close": "108643.02",
+      "volume": "22663.76576",
+      "ts": "2025-10-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "123482.32",
+      "high": "126149.99",
+      "low": "102292.48",
+      "close": "114958.81",
+      "volume": "28253.05286",
+      "ts": "2025-10-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "112163.95",
+      "high": "125707.68",
+      "low": "111560.65",
+      "close": "123482.32",
+      "volume": "18317.9304",
+      "ts": "2025-09-29T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "115235.44",
+      "high": "115379.25",
+      "low": "108620.07",
+      "close": "112163.95",
+      "volume": "14803.39611",
+      "ts": "2025-09-22T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "115280",
+      "high": "117899.99",
+      "low": "114386",
+      "close": "115235.44",
+      "volume": "10763.03056",
+      "ts": "2025-09-15T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "111137.34",
+      "high": "116665.63",
+      "low": "110621.78",
+      "close": "115280",
+      "volume": "12704.65514",
+      "ts": "2025-09-08T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "108246.35",
+      "high": "113384.62",
+      "low": "107255",
+      "close": "111137.34",
+      "volume": "12493.53409",
+      "ts": "2025-09-01T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "113493.59",
+      "high": "113667.28",
+      "low": "107355.98",
+      "close": "108246.35",
+      "volume": "14249.76213",
+      "ts": "2025-08-25T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "117405.01",
+      "high": "117543.75",
+      "low": "111105.06",
+      "close": "113493.59",
+      "volume": "13619.83126",
+      "ts": "2025-08-18T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "119294.26",
+      "high": "124474",
+      "low": "116803.99",
+      "close": "117405.01",
+      "volume": "14576.97676",
+      "ts": "2025-08-11T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "114208.81",
+      "high": "119311.11",
+      "low": "112650.01",
+      "close": "119294.26",
+      "volume": "9260.02401",
+      "ts": "2025-08-04T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "119415.31",
+      "high": "119799.99",
+      "low": "111931.96",
+      "close": "114208.81",
+      "volume": "12034.28163",
+      "ts": "2025-07-28T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "117265.12",
+      "high": "120247.8",
+      "low": "114723.16",
+      "close": "119415.31",
+      "volume": "13843.58698",
+      "ts": "2025-07-21T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "119086.65",
+      "high": "123217.99",
+      "low": "115736.92",
+      "close": "117265.12",
+      "volume": "14172.43657",
+      "ts": "2025-07-14T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "109203.84",
+      "high": "119479.02",
+      "low": "107438.49",
+      "close": "119086.65",
+      "volume": "11379.28582",
+      "ts": "2025-07-07T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "108356.93",
+      "high": "110515.81",
+      "low": "105100.2",
+      "close": "109203.84",
+      "volume": "8071.53265",
+      "ts": "2025-06-30T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "100963.87",
+      "high": "108528.5",
+      "low": "99616.61",
+      "close": "108356.93",
+      "volume": "10241.64921",
+      "ts": "2025-06-23T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "105594.02",
+      "high": "108948.5",
+      "low": "98200.01",
+      "close": "100963.87",
+      "volume": "12433.91123",
+      "ts": "2025-06-16T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "105734",
+      "high": "110528.2",
+      "low": "102665.39",
+      "close": "105594.02",
+      "volume": "12588.26629",
+      "ts": "2025-06-09T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "105642.93",
+      "high": "106793.41",
+      "low": "100380.01",
+      "close": "105734",
+      "volume": "11074.07886",
+      "ts": "2025-06-02T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "109004.2",
+      "high": "110718",
+      "low": "103074.94",
+      "close": "105642.93",
+      "volume": "20165.10251",
+      "ts": "2025-05-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "106454.27",
+      "high": "111980",
+      "low": "102042.01",
+      "close": "109004.2",
+      "volume": "33982.04663",
+      "ts": "2025-05-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "104118.01",
+      "high": "106650.64",
+      "low": "100750.98",
+      "close": "106454.27",
+      "volume": "24641.85396",
+      "ts": "2025-05-12T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "94277.61",
+      "high": "104984.57",
+      "low": "93388.01",
+      "close": "104118.01",
+      "volume": "26746.66235",
+      "ts": "2025-05-05T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "93749.29",
+      "high": "97895.68",
+      "low": "92800.01",
+      "close": "94277.61",
+      "volume": "21143.56506",
+      "ts": "2025-04-28T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "85179.25",
+      "high": "95749.02",
+      "low": "85144.76",
+      "close": "93749.29",
+      "volume": "28773.47643",
+      "ts": "2025-04-21T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "83760",
+      "high": "86471.16",
+      "low": "83111.64",
+      "close": "85179.25",
+      "volume": "18902.0384",
+      "ts": "2025-04-14T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "78424.51",
+      "high": "86099.99",
+      "low": "74508",
+      "close": "83760",
+      "volume": "47668.08346",
+      "ts": "2025-04-07T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "82378.9",
+      "high": "88285.76",
+      "low": "77158",
+      "close": "78424.51",
+      "volume": "30305.16355",
+      "ts": "2025-03-31T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "86082.49",
+      "high": "88765.43",
+      "low": "81565",
+      "close": "82378.9",
+      "volume": "22262.04763",
+      "ts": "2025-03-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "82576.89",
+      "high": "87440.41",
+      "low": "81150",
+      "close": "86082.49",
+      "volume": "18609.4375",
+      "ts": "2025-03-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "80734.3",
+      "high": "85309.71",
+      "low": "76606.01",
+      "close": "82576.89",
+      "volume": "31694.44199",
+      "ts": "2025-03-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "94269.99",
+      "high": "94416.46",
+      "low": "80005",
+      "close": "80734.3",
+      "volume": "41819.23668",
+      "ts": "2025-03-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "96258",
+      "high": "96500",
+      "low": "78262.34",
+      "close": "94269.99",
+      "volume": "51333.54546",
+      "ts": "2025-02-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "96118.12",
+      "high": "99475",
+      "low": "93388.09",
+      "close": "96258",
+      "volume": "30433.37045",
+      "ts": "2025-02-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "96463.49",
+      "high": "98826",
+      "low": "94088.42",
+      "close": "96118.12",
+      "volume": "28356.39909",
+      "ts": "2025-02-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "97700.59",
+      "high": "102482.42",
+      "low": "91242.02",
+      "close": "96463.49",
+      "volume": "42335.49063",
+      "ts": "2025-02-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "102620",
+      "high": "106453.45",
+      "low": "96151.89",
+      "close": "97700.59",
+      "volume": "36215.08716",
+      "ts": "2025-01-27T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "101313.56",
+      "high": "109574.99",
+      "low": "99550",
+      "close": "102620",
+      "volume": "49549.29415",
+      "ts": "2025-01-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "94544.99",
+      "high": "106422.43",
+      "low": "89257.5",
+      "close": "101313.56",
+      "volume": "44138.30546",
+      "ts": "2025-01-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "98363.61",
+      "high": "102700.03",
+      "low": "91208.85",
+      "close": "94544.99",
+      "volume": "31807.27544352",
+      "ts": "2025-01-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "93738.2",
+      "high": "98976.91",
+      "low": "91537.9",
+      "close": "98363.61",
+      "volume": "21797.31013",
+      "ts": "2024-12-30T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "95186.28",
+      "high": "99963.7",
+      "low": "92522.01",
+      "close": "93738.2",
+      "volume": "26850.56435",
+      "ts": "2024-12-23T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "104463.82",
+      "high": "108340",
+      "low": "92284.01",
+      "close": "95186.28",
+      "volume": "54622.86471",
+      "ts": "2024-12-16T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "101109.59",
+      "high": "105219.99",
+      "low": "94253",
+      "close": "104463.82",
+      "volume": "59383.53759",
+      "ts": "2024-12-09T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "97185.18",
+      "high": "104043.73",
+      "low": "91377.01",
+      "close": "101109.59",
+      "volume": "83009.86069",
+      "ts": "2024-12-02T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "97900.05",
+      "high": "98871.8",
+      "low": "90791.11",
+      "close": "97185.18",
+      "volume": "65365.30186",
+      "ts": "2024-11-25T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "89848",
+      "high": "99588.01",
+      "low": "89376.9",
+      "close": "97900.05",
+      "volume": "87356.21355",
+      "ts": "2024-11-18T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "80372.01",
+      "high": "93257.75",
+      "low": "80216.01",
+      "close": "89848",
+      "volume": "128566.37465",
+      "ts": "2024-11-11T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68775.99",
+      "high": "81449.97",
+      "low": "66835",
+      "close": "80372.01",
+      "volume": "90219.54785",
+      "ts": "2024-11-04T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68021.7",
+      "high": "73620.12",
+      "low": "67481.66",
+      "close": "68775.99",
+      "volume": "45305.83339",
+      "ts": "2024-10-28T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "69031.99",
+      "high": "69519.52",
+      "low": "65260",
+      "close": "68021.7",
+      "volume": "33693.14046",
+      "ts": "2024-10-21T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "62870.02",
+      "high": "69400",
+      "low": "62457.81",
+      "close": "69031.99",
+      "volume": "32761.49328",
+      "ts": "2024-10-14T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "62819.91",
+      "high": "64473.1",
+      "low": "58949",
+      "close": "62870.02",
+      "volume": "16001.38807",
+      "ts": "2024-10-07T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "65602.01",
+      "high": "65618.8",
+      "low": "59863.98",
+      "close": "62819.91",
+      "volume": "18534.2967",
+      "ts": "2024-09-30T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "63576",
+      "high": "66460.6",
+      "low": "62572.01",
+      "close": "65602.01",
+      "volume": "14443.88618",
+      "ts": "2024-09-23T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "59132",
+      "high": "64133.32",
+      "low": "57500.99",
+      "close": "63576",
+      "volume": "19122.227",
+      "ts": "2024-09-16T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "54869.95",
+      "high": "60624.54",
+      "low": "54591.97",
+      "close": "59132",
+      "volume": "22161.17809",
+      "ts": "2024-09-09T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "57302.02",
+      "high": "59809.64",
+      "low": "52561.27",
+      "close": "54869.95",
+      "volume": "27132.07721",
+      "ts": "2024-09-02T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "64220",
+      "high": "64481",
+      "low": "57205.01",
+      "close": "57302.02",
+      "volume": "24271.20405",
+      "ts": "2024-08-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "58427.35",
+      "high": "64991",
+      "low": "57814",
+      "close": "64220",
+      "volume": "21980.39019",
+      "ts": "2024-08-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "58711.8",
+      "high": "61766.52",
+      "low": "56105",
+      "close": "58427.35",
+      "volume": "23168.6725",
+      "ts": "2024-08-12T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "61877.27",
+      "high": "62740.57",
+      "low": "49062.36",
+      "close": "58711.8",
+      "volume": "32331.29425",
+      "ts": "2024-08-05T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68249.89",
+      "high": "70080",
+      "low": "60504.99",
+      "close": "61877.27",
+      "volume": "9325.24286376",
+      "ts": "2024-07-29T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68165.33",
+      "high": "69400",
+      "low": "63462",
+      "close": "68249.89",
+      "volume": "9842.32109",
+      "ts": "2024-07-22T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "57455.99",
+      "high": "68366.67",
+      "low": "60652",
+      "close": "68165.33",
+      "volume": "11284.79106",
+      "ts": "2024-07-15T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "55857.81",
+      "high": "58210.88",
+      "low": "54300",
+      "close": "57455.99",
+      "volume": "3305.51847552",
+      "ts": "2024-07-08T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "62772.01",
+      "high": "63861.76",
+      "low": "53536",
+      "close": "55857.81",
+      "volume": "13929.26844",
+      "ts": "2024-07-01T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "63197.96",
+      "high": "63369.8",
+      "low": "58504.68",
+      "close": "62772.01",
+      "volume": "9773.45294",
+      "ts": "2024-06-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "66676.86",
+      "high": "67295.7",
+      "low": "63178.32",
+      "close": "63197.96",
+      "volume": "8574.14904",
+      "ts": "2024-06-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "69648.15",
+      "high": "70188.27",
+      "low": "65078.32",
+      "close": "66676.86",
+      "volume": "9616.45202",
+      "ts": "2024-06-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "67765.63",
+      "high": "71975.33",
+      "low": "67612.49",
+      "close": "69648.15",
+      "volume": "9100.90525",
+      "ts": "2024-06-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68514",
+      "high": "70682.06",
+      "low": "66676.05",
+      "close": "67765.63",
+      "volume": "8987.62273",
+      "ts": "2024-05-27T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "66273.99",
+      "high": "71979",
+      "low": "66060.3",
+      "close": "68514",
+      "volume": "12240.97631",
+      "ts": "2024-05-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "61484",
+      "high": "67698.85",
+      "low": "60749.99",
+      "close": "66273.99",
+      "volume": "10799.72816",
+      "ts": "2024-05-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "64011.99",
+      "high": "65500",
+      "low": "60197.47",
+      "close": "61484",
+      "volume": "7041.29876",
+      "ts": "2024-05-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "63118.63",
+      "high": "64733.98",
+      "low": "56552.84",
+      "close": "64011.99",
+      "volume": "3582.97612",
+      "ts": "2024-04-29T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "64940",
+      "high": "67218.24",
+      "low": "62416.84",
+      "close": "63118.63",
+      "volume": "2677.83702",
+      "ts": "2024-04-22T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "65666.87",
+      "high": "66827.33",
+      "low": "59600.01",
+      "close": "64940",
+      "volume": "3422.03539",
+      "ts": "2024-04-15T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "69360.38",
+      "high": "72767.23",
+      "low": "60901.26",
+      "close": "65666.87",
+      "volume": "7980.43025",
+      "ts": "2024-04-08T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "71281.46",
+      "high": "71288.23",
+      "low": "64494.51",
+      "close": "69360.38",
+      "volume": "11181.08629",
+      "ts": "2024-04-01T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "67210",
+      "high": "71769.53",
+      "low": "66385.06",
+      "close": "71281.46",
+      "volume": "11586.51579",
+      "ts": "2024-03-25T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68393.49",
+      "high": "68955.99",
+      "low": "60777.08",
+      "close": "67210",
+      "volume": "23484.65744",
+      "ts": "2024-03-18T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "68955.87",
+      "high": "73777.01",
+      "low": "64536.47",
+      "close": "68393.49",
+      "volume": "27619.80963",
+      "ts": "2024-03-11T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "63113.98",
+      "high": "69990",
+      "low": "59094.22",
+      "close": "68955.87",
+      "volume": "31259.54692",
+      "ts": "2024-03-04T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "51728.84",
+      "high": "64000.01",
+      "low": "50903.53",
+      "close": "63113.98",
+      "volume": "21662.78155",
+      "ts": "2024-02-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "52112.02",
+      "high": "52985",
+      "low": "50521",
+      "close": "51728.84",
+      "volume": "11191.33663",
+      "ts": "2024-02-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "48299.99",
+      "high": "52816.61",
+      "low": "47711",
+      "close": "52112.02",
+      "volume": "15556.66915",
+      "ts": "2024-02-12T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "42582.87",
+      "high": "48591.6",
+      "low": "42258.09",
+      "close": "48299.99",
+      "volume": "13142.75789",
+      "ts": "2024-02-05T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "42031.04",
+      "high": "43871.31",
+      "low": "41806.69",
+      "close": "42582.87",
+      "volume": "10179.20358",
+      "ts": "2024-01-29T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "41580.34",
+      "high": "42842.68",
+      "low": "38555",
+      "close": "42031.04",
+      "volume": "18359.79478",
+      "ts": "2024-01-22T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "41732.35",
+      "high": "43578",
+      "low": "40291.36",
+      "close": "41580.34",
+      "volume": "11984.12188",
+      "ts": "2024-01-15T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "43923.7",
+      "high": "48966.84",
+      "low": "41499.99",
+      "close": "41732.35",
+      "volume": "41147.11557",
+      "ts": "2024-01-08T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "42283.58",
+      "high": "45879.63",
+      "low": "40808.91",
+      "close": "43923.7",
+      "volume": "26871.91974",
+      "ts": "2024-01-01T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "42972.48",
+      "high": "43799.92",
+      "low": "41461.98",
+      "close": "42283.58",
+      "volume": "13854.15238",
+      "ts": "2023-12-25T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "41374.65",
+      "high": "44398.25",
+      "low": "40542.93",
+      "close": "42972.48",
+      "volume": "14431.10301",
+      "ts": "2023-12-18T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "43789.51",
+      "high": "43804.5",
+      "low": "40225.1",
+      "close": "41374.65",
+      "volume": "19763.15174",
+      "ts": "2023-12-11T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "39972.26",
+      "high": "44700",
+      "low": "39965.99",
+      "close": "43789.51",
+      "volume": "60210.13137",
+      "ts": "2023-12-04T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "37447.43",
+      "high": "40212.12",
+      "low": "36708.71",
+      "close": "39972.26",
+      "volume": "60521.05786",
+      "ts": "2023-11-27T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "37358.74",
+      "high": "38407.84",
+      "low": "35641.42",
+      "close": "37447.43",
+      "volume": "65745.90553",
+      "ts": "2023-11-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "37064.14",
+      "high": "37965.29",
+      "low": "34911.6",
+      "close": "37358.74",
+      "volume": "71994.75753",
+      "ts": "2023-11-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "35011.89",
+      "high": "37969.35",
+      "low": "34527.68",
+      "close": "37064.14",
+      "volume": "73486.15692",
+      "ts": "2023-11-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "34525.89",
+      "high": "35924.05",
+      "low": "34035.11",
+      "close": "35011.89",
+      "volume": "68196.13134",
+      "ts": "2023-10-30T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "29992.46",
+      "high": "35270",
+      "low": "29883.6",
+      "close": "34525.89",
+      "volume": "104793.59397",
+      "ts": "2023-10-23T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27154.14",
+      "high": "30369.76",
+      "low": "27112.66",
+      "close": "29992.46",
+      "volume": "107138.57067",
+      "ts": "2023-10-16T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27917.05",
+      "high": "27987.93",
+      "low": "26538.66",
+      "close": "27154.14",
+      "volume": "62914.13332",
+      "ts": "2023-10-09T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27992.58",
+      "high": "28575.43",
+      "low": "27170.16",
+      "close": "27917.05",
+      "volume": "76276.90329",
+      "ts": "2023-10-02T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26249.45",
+      "high": "28050.84",
+      "low": "25992.99",
+      "close": "27992.58",
+      "volume": "66926.07897",
+      "ts": "2023-09-25T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26527.5",
+      "high": "27480",
+      "low": "26164.46",
+      "close": "26249.45",
+      "volume": "65086.76406",
+      "ts": "2023-09-18T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "25841.61",
+      "high": "26885.33",
+      "low": "24902.08",
+      "close": "26527.5",
+      "volume": "35342.19838",
+      "ts": "2023-09-11T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "25971.21",
+      "high": "26445.5",
+      "low": "25373.75",
+      "close": "25841.61",
+      "volume": "27824.76791",
+      "ts": "2023-09-04T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26101.78",
+      "high": "28132.99",
+      "low": "25341",
+      "close": "25971.21",
+      "volume": "39358.47001",
+      "ts": "2023-08-28T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26190",
+      "high": "26813.88",
+      "low": "25335.43",
+      "close": "26101.78",
+      "volume": "27455.56894",
+      "ts": "2023-08-21T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "29303.85",
+      "high": "29695.32",
+      "low": "24374.15",
+      "close": "26190",
+      "volume": "43357.40879",
+      "ts": "2023-08-14T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "29088.42",
+      "high": "30223.56",
+      "low": "28718.85",
+      "close": "29303.85",
+      "volume": "25231.41334",
+      "ts": "2023-08-07T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "29281.08",
+      "high": "30040",
+      "low": "28590",
+      "close": "29088.42",
+      "volume": "27387.13394",
+      "ts": "2023-07-31T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30083.75",
+      "high": "30099.59",
+      "low": "28867.24",
+      "close": "29281.08",
+      "volume": "16502.02316",
+      "ts": "2023-07-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30232",
+      "high": "30417.46",
+      "low": "29534.93",
+      "close": "30083.75",
+      "volume": "12269.69159",
+      "ts": "2023-07-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30160.71",
+      "high": "31804.19",
+      "low": "29902.38",
+      "close": "30232",
+      "volume": "17941.86762",
+      "ts": "2023-07-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30617.03",
+      "high": "31500.03",
+      "low": "29710.08",
+      "close": "30160.71",
+      "volume": "14767.4912",
+      "ts": "2023-07-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30462.65",
+      "high": "31282",
+      "low": "29516.72",
+      "close": "30617.03",
+      "volume": "20268.18678",
+      "ts": "2023-06-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26339.97",
+      "high": "31408",
+      "low": "26269.7",
+      "close": "30462.65",
+      "volume": "27895.97722",
+      "ts": "2023-06-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "25925.54",
+      "high": "26804.76",
+      "low": "24500",
+      "close": "26339.97",
+      "volume": "18514.82989",
+      "ts": "2023-06-12T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27117.1",
+      "high": "27377.28",
+      "low": "25356.76",
+      "close": "25925.54",
+      "volume": "23572.3835",
+      "ts": "2023-06-05T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "28065",
+      "high": "28430.18",
+      "low": "26506.5",
+      "close": "27117.1",
+      "volume": "14123.9651",
+      "ts": "2023-05-29T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26747.78",
+      "high": "28248.42",
+      "low": "25876.89",
+      "close": "28065",
+      "volume": "16568.36545",
+      "ts": "2023-05-22T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "26840",
+      "high": "27663.3",
+      "low": "26374.11",
+      "close": "26747.78",
+      "volume": "14343.0192116",
+      "ts": "2023-05-15T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "28430.6",
+      "high": "28627.82",
+      "low": "26121.01",
+      "close": "26840",
+      "volume": "6581.740818",
+      "ts": "2023-05-08T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "29219.6",
+      "high": "29820.01",
+      "low": "27667.31",
+      "close": "28430.6",
+      "volume": "12469.311808",
+      "ts": "2023-05-01T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27590.61",
+      "high": "30002.31",
+      "low": "26972.16",
+      "close": "29219.6",
+      "volume": "11932.098077",
+      "ts": "2023-04-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "30307.09",
+      "high": "30467.57",
+      "low": "27140.37",
+      "close": "27590.61",
+      "volume": "19652.274677",
+      "ts": "2023-04-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "28323.74",
+      "high": "30983.26",
+      "low": "28176.83",
+      "close": "30307.09",
+      "volume": "16635.723283",
+      "ts": "2023-04-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "28171.88",
+      "high": "28763.1",
+      "low": "27224.33",
+      "close": "28323.74",
+      "volume": "8227.03341883",
+      "ts": "2023-04-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27969.06",
+      "high": "29177.6",
+      "low": "26536.37",
+      "close": "28171.88",
+      "volume": "3922.255138",
+      "ts": "2023-03-27T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "27964.52",
+      "high": "28818.52",
+      "low": "26618.54",
+      "close": "27969.06",
+      "volume": "17780.97417578",
+      "ts": "2023-03-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "21994.19",
+      "high": "28381.39",
+      "low": "21823.55",
+      "close": "27964.52",
+      "volume": "35856.360603",
+      "ts": "2023-03-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "22385.15",
+      "high": "22108.27",
+      "low": "19579.12",
+      "close": "21994.19",
+      "volume": "13291.686319",
+      "ts": "2023-03-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "23556.39",
+      "high": "23986.66",
+      "low": "22042.01",
+      "close": "22385.15",
+      "volume": "6546.490575",
+      "ts": "2023-02-27T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "24275.11",
+      "high": "25232.39",
+      "low": "22773.41",
+      "close": "23556.39",
+      "volume": "7804.706905",
+      "ts": "2023-02-20T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "21782.87",
+      "high": "25222.15",
+      "low": "21376.86",
+      "close": "24275.11",
+      "volume": "8382.40543657",
+      "ts": "2023-02-13T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "22930.87",
+      "high": "23426.45",
+      "low": "21483.51",
+      "close": "21782.87",
+      "volume": "5222.72739652",
+      "ts": "2023-02-06T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "23744.18",
+      "high": "24251.04",
+      "low": "22518",
+      "close": "22930.87",
+      "volume": "1450.626309",
+      "ts": "2023-01-30T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "22709.77",
+      "high": "23951.9",
+      "low": "22340.67",
+      "close": "23744.18",
+      "volume": "2614.601957",
+      "ts": "2023-01-23T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "20871.766",
+      "high": "23320.1",
+      "low": "20420.81",
+      "close": "22709.77",
+      "volume": "4472.403665",
+      "ts": "2023-01-16T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "17127.0164",
+      "high": "21236.93",
+      "low": "17106.5221",
+      "close": "20871.766",
+      "volume": "64384.510591",
+      "ts": "2023-01-09T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16617.762",
+      "high": "17169.2969",
+      "low": "16550.2186",
+      "close": "17127.0164",
+      "volume": "36323.58314",
+      "ts": "2023-01-02T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16831.7432",
+      "high": "16965.84",
+      "low": "16342.2571",
+      "close": "16617.762",
+      "volume": "48475.62333",
+      "ts": "2022-12-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16738.56",
+      "high": "17057.44",
+      "low": "16264.995",
+      "close": "16831.7432",
+      "volume": "161696.452182",
+      "ts": "2022-12-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "17091.775",
+      "high": "18360.8083",
+      "low": "16531.705",
+      "close": "16738.56",
+      "volume": "178927.464395",
+      "ts": "2022-12-12T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "17106.155",
+      "high": "17415.105",
+      "low": "16683.27",
+      "close": "17091.775",
+      "volume": "167846.58504676",
+      "ts": "2022-12-05T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16428.78",
+      "high": "17324",
+      "low": "15995.27",
+      "close": "17106.155",
+      "volume": "1156497.863051",
+      "ts": "2022-11-28T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16280.23",
+      "high": "16812.63",
+      "low": "15476",
+      "close": "16428.78",
+      "volume": "1561058.479583",
+      "ts": "2022-11-21T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "16329.85",
+      "high": "17190",
+      "low": "15815.21",
+      "close": "16280.23",
+      "volume": "1626234.48043",
+      "ts": "2022-11-14T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "20905.58",
+      "high": "21069.77",
+      "low": "15588",
+      "close": "16329.85",
+      "volume": "3234391.873932",
+      "ts": "2022-11-07T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "20627.48",
+      "high": "21480.65",
+      "low": "20031.24",
+      "close": "20905.58",
+      "volume": "2205754.83045",
+      "ts": "2022-10-31T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "19570.4",
+      "high": "21085",
+      "low": "19157",
+      "close": "20627.48",
+      "volume": "2026392.42105",
+      "ts": "2022-10-24T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "19262.98",
+      "high": "19706.66",
+      "low": "18650",
+      "close": "19570.4",
+      "volume": "1439566.24878",
+      "ts": "2022-10-17T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "19439.02",
+      "high": "19951.87",
+      "low": "18190",
+      "close": "19262.98",
+      "volume": "1666942.47921",
+      "ts": "2022-10-10T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "19056.8",
+      "high": "20475",
+      "low": "18959.68",
+      "close": "19439.02",
+      "volume": "1690215.44019",
+      "ts": "2022-10-03T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "18807.38",
+      "high": "20385.86",
+      "low": "18471.28",
+      "close": "19056.8",
+      "volume": "2777070.91238",
+      "ts": "2022-09-26T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "19416.18",
+      "high": "19956",
+      "low": "18125.98",
+      "close": "18807.38",
+      "volume": "2285541.48793",
+      "ts": "2022-09-19T00:00:00Z"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "open": "21826.87",
+      "high": "22799",
+      "low": "19320.01",
+      "close": "19416.18",
+      "volume": "2218565.59694",
+      "ts": "2022-09-12T00:00:00Z"
+    }
+  ],
+  "success": true
+}

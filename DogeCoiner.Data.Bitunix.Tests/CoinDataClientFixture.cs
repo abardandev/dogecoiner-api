@@ -4,7 +4,7 @@ using Moq;
 
 namespace DogeCoiner.Data.Bitunix.Tests
 {
-    public class CoinDataClientFixture
+    public class CoinDataFakeClientFixture
     {
         private ServiceProvider _provider;
 
@@ -19,7 +19,7 @@ namespace DogeCoiner.Data.Bitunix.Tests
             }
         }
 
-        public CoinDataClientFixture()
+        public CoinDataFakeClientFixture()
         {
             Config = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
@@ -31,6 +31,37 @@ namespace DogeCoiner.Data.Bitunix.Tests
             Api = new Mock<HttpMessageHandler>();
             var httpClient = new HttpClient(Api.Object);
             services.AddSingleton(httpClient);
+
+            services.AddScoped<ICoinDataClient, BitunixDataClient>();
+
+            _provider = services.BuildServiceProvider();
+        }
+    }
+
+    public class CoinDataRealClientFixture
+    {
+        private ServiceProvider _provider;
+
+        public IConfiguration Config { get; }
+
+        public ICoinDataClient CoinDataClient
+        {
+            get
+            {
+                return _provider.GetService<ICoinDataClient>();
+            }
+        }
+
+        public CoinDataRealClientFixture()
+        {
+            Config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            var services = new ServiceCollection();
+            services.Configure<BitunixApiSettings>(Config.GetSection("ApiSettings"));
+
+            services.AddHttpClient();
 
             services.AddScoped<ICoinDataClient, BitunixDataClient>();
 
