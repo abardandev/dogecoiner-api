@@ -1,4 +1,4 @@
-This is an Asp.Net API written in C#.
+This is Visual Studio solution written in C#.
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ _The DAL library for accessing the DogeCoiner database._
 The main utilities are `CoinDataDbContext` and Repositories like `KLineRepo`
 
 Using **CQRS**, I've split CRUD operations this way:
-- **Create, Update, Delete** - are done through Repos like `KLineRepo`
+- **Create, Update, Delete** - are done through entity Repos like `KLineRepo`
   - using Dapper to call Stored Procedures executing `MERGE` and `DELETE`, 
   - with User-Defined Table Types parameters for batching and set operations.
   - I've opted for this more manual boilerplate process to avoid bad EF code for bulk processing and to let the db do what it's best at.
@@ -85,6 +85,6 @@ Using **CQRS**, I've split CRUD operations this way:
 
 ### DogeCoiner.Data.WebApi
 
-_The API that serves the DogeCoiner app ecosystem._
+_The Asp.Net API that serves the DogeCoiner app ecosystem._
 
 Explore available endpoints in this file: `DogeCoiner.Data.WebApi.http`
