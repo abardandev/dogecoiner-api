@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace DogeCoiner.Data.Local
+namespace DogeCoiner.Data.DAL
 {
     public interface IDataTableBuilder
     {

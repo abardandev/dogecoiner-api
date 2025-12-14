@@ -4,7 +4,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
 using System.Data;
 
-namespace DogeCoiner.Data.Local
+namespace DogeCoiner.Data.DAL
 {
     public interface IKLineRepo
     {

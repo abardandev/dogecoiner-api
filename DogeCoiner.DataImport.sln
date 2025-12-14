@@ -7,13 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Bitunix.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Bitunix", "DogeCoiner.Data.Bitunix\DogeCoiner.Data.Bitunix.csproj", "{BA91689E-EC5B-49C8-B621-A980868979BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Local", "DogeCoiner.Data.Local\DogeCoiner.Data.Local.csproj", "{8A99DB2D-93A8-4024-B3D3-E0AB11761433}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.DAL", "DogeCoiner.Data.DAL\DogeCoiner.Data.DAL.csproj", "{8A99DB2D-93A8-4024-B3D3-E0AB11761433}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Import", "DogeCoiner.Data.Import\DogeCoiner.Data.Import.csproj", "{98109FCF-AD99-4EF2-9A71-A9B3D5881A5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Import.Tests", "DogeCoiner.Data.Import.Tests\DogeCoiner.Data.Import.Tests.csproj", "{701E106E-106F-478D-8FC8-C49712FB9235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.Local.Tests", "DogeCoiner.Data.Local.Tests\DogeCoiner.Data.Local.Tests.csproj", "{4736129F-2E35-4995-BC42-5D3F07B6857C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data.DAL.Tests", "DogeCoiner.Data.DAL.Tests\DogeCoiner.Data.DAL.Tests.csproj", "{4736129F-2E35-4995-BC42-5D3F07B6857C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoiner.Data", "DogeCoiner.Data\DogeCoiner.Data.csproj", "{4BF6B66B-6799-4B37-A4AD-A3A9F9FA7360}"
 EndProject

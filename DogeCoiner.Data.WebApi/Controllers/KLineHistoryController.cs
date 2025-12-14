@@ -1,5 +1,5 @@
 using DogeCoiner.Data.Dtos;
-using DogeCoiner.Data.Local;
+using DogeCoiner.Data.DAL;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DogeCoiner.Data.WebApi.Controllers

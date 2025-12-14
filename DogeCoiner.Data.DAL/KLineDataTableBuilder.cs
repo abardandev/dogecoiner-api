@@ -1,7 +1,7 @@
 ﻿using DogeCoiner.Data.Dtos;
 using System.Data;
 
-namespace DogeCoiner.Data.Local
+namespace DogeCoiner.Data.DAL
 {
     public class KLineDataTableBuilder : IDataTableBuilder
     {

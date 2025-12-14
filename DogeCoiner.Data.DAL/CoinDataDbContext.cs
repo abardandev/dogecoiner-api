@@ -1,7 +1,7 @@
 ﻿using DogeCoiner.Data.Dtos;
 using Microsoft.EntityFrameworkCore;
 
-namespace DogeCoiner.Data.Local
+namespace DogeCoiner.Data.DAL
 {
     public class CoinDataDbContext : DbContext
     {

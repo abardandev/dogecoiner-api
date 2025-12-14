@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DogeCoiner.Data.Local\DogeCoiner.Data.Local.csproj" />
+    <ProjectReference Include="..\DogeCoiner.Data.DAL\DogeCoiner.Data.DAL.csproj" />
     <ProjectReference Include="..\DogeCoiner.Data\DogeCoiner.Data.csproj" />
   </ItemGroup>
 

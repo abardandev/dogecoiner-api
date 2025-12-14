@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DogeCoiner.Data.Bitunix\DogeCoiner.Data.Bitunix.csproj" />
-    <ProjectReference Include="..\DogeCoiner.Data.Local\DogeCoiner.Data.Local.csproj" />
+    <ProjectReference Include="..\DogeCoiner.Data.Local\DogeCoiner.Data.DAL.csproj" />
   </ItemGroup>
 
 </Project>

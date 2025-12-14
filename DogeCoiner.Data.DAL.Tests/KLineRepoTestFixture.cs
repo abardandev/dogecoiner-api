@@ -1,4 +1,4 @@
-﻿using DogeCoiner.Data.Local;
+﻿using DogeCoiner.Data.DAL;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 

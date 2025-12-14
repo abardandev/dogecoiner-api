@@ -1,4 +1,4 @@
-﻿namespace DogeCoiner.Data.Local
+﻿namespace DogeCoiner.Data.DAL
 {
     public class DogeCoinerDataSettings
     {
