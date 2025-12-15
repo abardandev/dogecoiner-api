@@ -10,7 +10,7 @@ namespace DogeCoiner.Data.Bitunix.Dtos
             {
                 Symbol = item.symbol,
                 Interval = interval,
-                Timestamp = item.ts,
+                TimestampUtc = item.ts,
                 OpenPrice = decimal.TryParse(item.open, out decimal open) ? open : 0,
                 HighPrice = decimal.TryParse(item.high, out decimal high) ? high : 0,
                 LowPrice = decimal.TryParse(item.low, out decimal low) ? low : 0,

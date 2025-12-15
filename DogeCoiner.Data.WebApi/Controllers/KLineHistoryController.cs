@@ -34,10 +34,10 @@ namespace DogeCoiner.Data.WebApi.Controllers
         {
             return _ctx.KLines
                 .Where(o => o.Symbol == symbol && o.Interval == interval)
-                .OrderBy(o => o.Timestamp)
+                .OrderBy(o => o.TimestampUtc)
                 .Select(o => new
                 {
-                    time = o.Timestamp.ToString("yyyy-MM-dd"),
+                    time = o.TimestampUtc.ToString("yyyy-MM-dd"),
                     value = o.ClosePrice
                 })
                 .ToArray();

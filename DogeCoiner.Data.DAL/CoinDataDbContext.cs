@@ -18,7 +18,7 @@ namespace DogeCoiner.Data.DAL
             {
                 entity.ToTable("KLines", "dbo");
 
-                entity.HasKey(e => e.ID);
+                entity.HasKey(e => e.KLineId);
 
                 entity.Property(e => e.Symbol)
                     .IsRequired()
@@ -27,7 +27,7 @@ namespace DogeCoiner.Data.DAL
                 entity.Property(e => e.Interval)
                     .HasColumnType("varchar(1)");
 
-                entity.Property(e => e.Timestamp)
+                entity.Property(e => e.TimestampUtc)
                     .HasColumnType("datetime2")
                     .IsRequired();
 
@@ -51,7 +51,7 @@ namespace DogeCoiner.Data.DAL
                     .HasColumnType("decimal(24,8)")
                     .IsRequired();
 
-                entity.HasIndex(e => new { e.Symbol, e.Interval, e.Timestamp })
+                entity.HasIndex(e => new { e.Symbol, e.Interval, e.TimestampUtc })
                     .IsUnique();
             });
         }

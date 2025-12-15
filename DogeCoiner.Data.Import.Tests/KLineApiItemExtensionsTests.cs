@@ -26,7 +26,7 @@ namespace DogeCoiner.Data.Import.Tests
             klines.Should().NotBeEmpty();
             klines.All(o => o.Symbol == symbol).Should().BeTrue();
             klines.All(o => o.Interval == "W").Should().BeTrue();
-            klines.All(o => o.Timestamp > DateTime.MinValue).Should().BeTrue();
+            klines.All(o => o.TimestampUtc > DateTime.MinValue).Should().BeTrue();
             klines.All(o => o.OpenPrice != 0).Should().BeTrue();
             klines.All(o => o.HighPrice != 0).Should().BeTrue();
             klines.All(o => o.LowPrice != 0).Should().BeTrue();

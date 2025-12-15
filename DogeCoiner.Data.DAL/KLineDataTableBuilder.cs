@@ -24,10 +24,10 @@ namespace DogeCoiner.Data.DAL
         {
             var dt = new DataTable();
             var cols = dt.Columns;
-            cols.Add(nameof(KLine.ID));
+            cols.Add(nameof(KLine.KLineId));
             cols.Add(nameof(KLine.Symbol));
             cols.Add(nameof(KLine.Interval));
-            cols.Add(nameof(KLine.Timestamp));
+            cols.Add(nameof(KLine.TimestampUtc));
             cols.Add(nameof(KLine.OpenPrice));
             cols.Add(nameof(KLine.HighPrice));
             cols.Add(nameof(KLine.LowPrice));
@@ -43,10 +43,10 @@ namespace DogeCoiner.Data.DAL
             {
                 {
                     dt.Rows.Add(
-                        item.ID,
+                        item.KLineId,
                         item.Symbol,
                         item.Interval,
-                        item.Timestamp,
+                        item.TimestampUtc,
                         item.OpenPrice,
                         item.HighPrice,
                         item.LowPrice,
