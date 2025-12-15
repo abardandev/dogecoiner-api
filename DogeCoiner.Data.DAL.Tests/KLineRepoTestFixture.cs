@@ -1,4 +1,5 @@
 ﻿using DogeCoiner.Data.DAL;
+using DogeCoiner.Data.DAL.Repos.KLines;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,11 +11,11 @@ namespace DogeCoiner.Data.Bitunix.Tests
 
         public IConfiguration Config { get; }
 
-        public IKLineRepo KLineRepo
+        public IKLinesRepo KLineRepo
         {
             get
             {
-                return _provider.GetService<IKLineRepo>();
+                return _provider.GetService<IKLinesRepo>();
             }
         }
 
@@ -27,7 +28,7 @@ namespace DogeCoiner.Data.Bitunix.Tests
             var services = new ServiceCollection();
             services.Configure<DogeCoinerDataSettings>(Config.GetSection("DbSettings"));
 
-            services.AddScoped<IKLineRepo, KLineRepo>();
+            services.AddScoped<IKLinesRepo, KLinesRepo>();
 
             _provider = services.BuildServiceProvider();
         }

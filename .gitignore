@@ -67,3 +67,4 @@ TestResults/
 Thumbs.db
 Desktop.ini
 PublishProfiles/
+/DogeCoiner.Data.WebApi/appsettings.Production.json

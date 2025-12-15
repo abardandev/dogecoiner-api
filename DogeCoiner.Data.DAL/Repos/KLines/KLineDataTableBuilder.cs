@@ -1,7 +1,7 @@
 ﻿using DogeCoiner.Data.Dtos;
 using System.Data;
 
-namespace DogeCoiner.Data.DAL
+namespace DogeCoiner.Data.DAL.Repos.KLines
 {
     public class KLineDataTableBuilder : IDataTableBuilder
     {
@@ -41,18 +41,16 @@ namespace DogeCoiner.Data.DAL
         {
             foreach (var item in _items)
             {
-                {
-                    dt.Rows.Add(
-                        item.KLineId,
-                        item.Symbol,
-                        item.Interval,
-                        item.TimestampUtc,
-                        item.OpenPrice,
-                        item.HighPrice,
-                        item.LowPrice,
-                        item.ClosePrice,
-                        item.Volume);
-                }
+                dt.Rows.Add(
+                    item.KLineId,
+                    item.Symbol,
+                    item.Interval,
+                    item.TimestampUtc,
+                    item.OpenPrice,
+                    item.HighPrice,
+                    item.LowPrice,
+                    item.ClosePrice,
+                    item.Volume);
             }
         }
     }

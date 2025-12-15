@@ -4,31 +4,31 @@ using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Options;
 using System.Data;
 
-namespace DogeCoiner.Data.DAL
+namespace DogeCoiner.Data.DAL.Repos.Users
 {
-    public interface IKLineRepo
+    public interface IUsersRepo
     {
-        void Save(KLine[] items);
+        void Save(User[] items);
     }
 
-    public class KLineRepo : IKLineRepo
+    public class UsersRepo : IUsersRepo
     {
         private string _connStr;
 
-        public KLineRepo(IOptions<DogeCoinerDataSettings> opts)
+        public UsersRepo(IOptions<DogeCoinerDataSettings> opts)
         {
             _connStr = opts.Value.ConnectionString;
         }
 
-        public void Save(KLine[] items)
+        public void Save(User[] items)
         {
             using var dbConn = new SqlConnection(_connStr);
 
-            var dt = new KLineDataTableBuilder(items).Build();
+            var dt = new UserDataTableBuilder(items).Build();
 
             var res = dbConn.Query(
-                "dbo.UpsertKLineItems", 
-                new { KLineItems = dt.AsTableValuedParameter() }, 
+                "dbo.UpsertUsers", 
+                new { Users = dt.AsTableValuedParameter() }, 
                 commandType: CommandType.StoredProcedure);
         }
     }
