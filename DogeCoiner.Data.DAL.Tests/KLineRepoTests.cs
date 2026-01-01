@@ -2,7 +2,7 @@
 using DogeCoiner.Data.Bitunix.Tests;
 using System.Text.Json;
 
-namespace DogeCoiner.Data.Local.Tests
+namespace DogeCoiner.Data.DAL.Tests
 {
     public class KLineRepoTests : IClassFixture<KLineRepoTestFixture>
     {

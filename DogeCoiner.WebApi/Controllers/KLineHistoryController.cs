@@ -1,11 +1,12 @@
 using DogeCoiner.Data.Dtos;
 using DogeCoiner.Data.DAL;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DogeCoiner.Data.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [AllowAnonymous]
     public class KLineHistoryController : ControllerBase
     {
         private CoinDataDbContext _ctx;
@@ -17,7 +18,7 @@ namespace DogeCoiner.Data.WebApi.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("klinehistory")]
         public IEnumerable<KLine> Get(
             [FromQuery] string symbol,
             [FromQuery] string interval)
@@ -27,7 +28,7 @@ namespace DogeCoiner.Data.WebApi.Controllers
                 .ToArray();
         }
 
-        [HttpGet("LineData")]
+        [HttpGet("klinehistory/linedata")]
         public IEnumerable<dynamic> GetLineData(
             [FromQuery] string symbol,
             [FromQuery] string interval)
