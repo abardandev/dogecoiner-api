@@ -15,7 +15,7 @@ namespace DogeCoiner.Data.DAL.Repos.Transactions
     {
         private string _connStr;
 
-        public TransactionsRepo(IOptions<DogeCoinerDataSettings> opts)
+        public TransactionsRepo(IOptions<DogeCoinerSettings> opts)
         {
             _connStr = opts.Value.ConnectionString;
         }

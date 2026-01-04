@@ -1,9 +1,7 @@
+using DogeCoiner.Data.Auth;
 using DogeCoiner.WebApi.Configuration;
-using DogeCoiner.WebApi.Models;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.JsonWebTokens;
 using Microsoft.IdentityModel.Tokens;
-using System.Security.Claims;
 using System.Text.Json;
 
 namespace DogeCoiner.WebApi.Services;
@@ -12,7 +10,6 @@ public class JweDecryptionService : IJweDecryptionService
 {
     private readonly JweSettings _jweSettings;
     private readonly ILogger<JweDecryptionService> _logger;
-    private readonly JsonWebTokenHandler _tokenHandler;
     private readonly byte[] _decryptionKey;
 
     public JweDecryptionService(
@@ -21,13 +18,12 @@ public class JweDecryptionService : IJweDecryptionService
     {
         _jweSettings = jweSettings.Value;
         _logger = logger;
-        _tokenHandler = new JsonWebTokenHandler();
 
         // Derive the decryption key based on configuration
         _decryptionKey = Base64UrlEncoder.DecodeBytes(_jweSettings.EncryptionKey);
     }
 
-    public async Task<ClaimsPrincipal> DecryptAndValidateAsync(string jweToken)
+    public AuthUserJwt DecryptAndValidate(string jweToken)
     {
         try
         {
@@ -39,22 +35,21 @@ public class JweDecryptionService : IJweDecryptionService
 
             var decryptedJwt = Jose.JWT.Decrypt(jweToken, _decryptionKey);
 
-            var user = JsonSerializer.Deserialize<AuthUserJwt>(decryptedJwt, 
+            var user = JsonSerializer.Deserialize<AuthUserJwt>(decryptedJwt,
                 new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+
             if (user == null)
             {
-                throw new SecurityTokenException("JWE token is null or empty");
+                throw new SecurityTokenException("Failed to deserialize JWT payload");
             }
 
             ValidateExpiration(user);
 
-            var principal = BuildPrincipal(user);
-
             // Log successful decryption
             _logger.LogInformation("Successfully decrypted and validated JWE token for subject: {Subject}",
-                principal.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "unknown");
+                user.Sub);
 
-            return await Task.FromResult(principal);
+            return user;
         }
         catch (SecurityTokenExpiredException ex)
         {
@@ -86,15 +81,5 @@ public class JweDecryptionService : IJweDecryptionService
                 throw new SecurityTokenExpiredException($"Token expired at {expDate}");
             }
         }
-    }
-
-    private ClaimsPrincipal BuildPrincipal(AuthUserJwt user)
-    {
-        var claims = user.GetClaims();
-        
-        var identity = new ClaimsIdentity(claims, "JweBearer");
-        var principal = new ClaimsPrincipal(identity);
-
-        return principal;
     }
 }

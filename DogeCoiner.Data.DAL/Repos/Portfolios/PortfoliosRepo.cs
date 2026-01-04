@@ -15,7 +15,7 @@ namespace DogeCoiner.Data.DAL.Repos.Portfolios
     {
         private string _connStr;
 
-        public PortfoliosRepo(IOptions<DogeCoinerDataSettings> opts)
+        public PortfoliosRepo(IOptions<DogeCoinerSettings> opts)
         {
             _connStr = opts.Value.ConnectionString;
         }

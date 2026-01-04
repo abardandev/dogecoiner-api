@@ -1,7 +1,5 @@
-﻿using DogeCoiner.WebApi.Extensions;
-using DogeCoiner.WebApi.Models;
+﻿using DogeCoiner.Data.Auth;
 using FluentAssertions;
-using System.Runtime.Serialization;
 using System.Text.Json;
 using Xunit.Abstractions;
 
@@ -23,7 +21,7 @@ namespace DogeCoiner.WebApi.Tests
         [Theory]
         [InlineData("TestData\\jwe-token.txt", "TestData\\jwe-token-decrypted.json")]
         [InlineData("TestData\\jwe-token2.txt", "TestData\\jwe-token2-decrypted.json")]
-        public async Task DecryptAndValidate(string tokenFilename, string expectedFilename)
+        public void DecryptAndValidate(string tokenFilename, string expectedFilename)
         {
             var token = File.ReadAllText(tokenFilename).Trim();
             var decrypted = File.ReadAllText(expectedFilename).Trim();
@@ -31,7 +29,7 @@ namespace DogeCoiner.WebApi.Tests
             token.Count(c => c == '.').Should().Be(4); // 4 dots
             token.Split('.').Length.Should().Be(5); // 5 segments
 
-            var res = await _fixture.JweService.DecryptAndValidateAsync(token);
+            var res = _fixture.JweService.DecryptAndValidate(token);
 
             res.Should().NotBeNull();
 
@@ -43,18 +41,37 @@ namespace DogeCoiner.WebApi.Tests
             expected.Should().NotBeNull();
 
             // Validate all user properties from the JWT payload
-            user.Name.Should().Be(expected.Name);
-            user.Email.Should().Be(expected.Email);
-            user.Picture.Should().Be(expected.Picture);
-            user.Sub.Should().Be(expected.Sub);
-            user.UserId.Should().Be(expected.UserId);
-            user.Jti.Should().Be(expected.Jti);
+            user.Name.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.Name);
+
+            user.Email.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.Email);
+
+            user.Picture.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.Picture);
+            
+            user.FirstName.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.FirstName);
+            
+            user.LastName.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.LastName);
+            
+            user.Provider.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.Provider);
+            
+            user.ProviderSub.Should()
+                .NotBeNullOrWhiteSpace()
+                .And.Be(expected.ProviderSub);
 
             // Validate timestamps
-            user.IssuedAt.Should().Be(expected.Iat);
-            user.Expiration.Should().Be(expected.Exp);
-            user.IssuedAtDate.Should().Be(DateTimeOffset.FromUnixTimeSeconds(expected.Iat));
-            user.ExpirationDate.Should().Be(DateTimeOffset.FromUnixTimeSeconds(expected.Exp));
+            user.IssuedAtDateUtc.Should().Be(DateTimeOffset.FromUnixTimeSeconds(expected.Iat));
+            user.ExpirationDateUtc.Should().Be(DateTimeOffset.FromUnixTimeSeconds(expected.Exp));
 
             // Validate authentication status
             user.IsAuthenticated.Should().BeTrue();

@@ -6,6 +6,8 @@ namespace DogeCoiner.Data.DAL
     public class CoinDataDbContext : DbContext
     {
         public DbSet<KLine> KLines { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Portfolio> Portfolios { get; set; }
 
         public CoinDataDbContext(DbContextOptions<CoinDataDbContext> options)
             : base(options)
@@ -28,12 +30,38 @@ namespace DogeCoiner.Data.DAL
 
                 entity.HasKey(e => e.UserId);
 
-                entity.Property(e => e.Username)
+                entity.Property(e => e.UserId)
+                    .HasColumnType("bigint");
+
+                entity.Property(e => e.Email)
                     .HasMaxLength(150)
                     .IsRequired();
 
-                entity.Property(e => e.IsRegistered)
-                    .HasColumnType("bit");
+                entity.HasIndex(e => e.Email)
+                    .IsUnique();
+
+                entity.Property(e => e.FirstName)
+                    .HasMaxLength(150);
+
+                entity.Property(e => e.LastName)
+                    .HasMaxLength(150);
+
+                entity.Property(e => e.Picture)
+                    .HasColumnType("varchar(250)");
+
+                entity.Property(e => e.ProviderSub)
+                    .HasColumnType("varchar(150)");
+
+                entity.Property(e => e.ProviderName)
+                    .HasColumnType("varchar(50)");
+
+                // entity.Property(e => e.CreatedUtc)
+                //     .HasColumnType("datetime2")
+                //     .IsRequired()
+                //     .HasDefaultValueSql("GETUTCDATE()");
+
+                // entity.Property(e => e.ModifiedUtc)
+                //     .HasColumnType("datetime2");
 
                 entity.HasMany(e => e.Portfolios)
                     .WithOne(e => e.User);

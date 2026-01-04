@@ -1,4 +1,4 @@
-using DogeCoiner.WebApi.Extensions;
+using DogeCoiner.Data.Extensions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -27,20 +27,16 @@ public class SecureExampleController : ControllerBase
         // Get the authenticated user using the extension method
         var user = User.ToAuthenticatedUser();
 
-        _logger.LogInformation("User {UserId} ({Name}) accessed user info endpoint",
-            user.UserId, user.Name);
+        _logger.LogInformation("User {Sub} accessed user info endpoint",
+            user.ProviderSub);
 
         return Ok(new
         {
-            user.UserId,
-            user.Name,
+            user.ProviderSub,
             user.Email,
-            user.Picture,
-            user.Sub,
-            IssuedAt = user.IssuedAtDate,
-            ExpiresAt = user.ExpirationDate,
-            user.IsExpired,
-            user.Jti
+            user.FirstName,
+            user.LastName,
+            user.Picture   
         });
     }
 
@@ -94,14 +90,14 @@ public class SecureExampleController : ControllerBase
     {
         var user = User.ToAuthenticatedUser();
 
-        _logger.LogInformation("User {UserId} ({Name}) performed secure action: {Action}",
-            user.UserId, user.Name, request.ActionName);
+        _logger.LogInformation("User {Sub} performed secure action: {Action}",
+            user.ProviderSub, user.Name, request.ActionName);
 
         return Ok(new
         {
             Success = true,
             Message = $"Action '{request.ActionName}' completed successfully by {user.Name}",
-            UserId = user.UserId,
+            user.ProviderSub,
             UserEmail = user.Email
         });
     }

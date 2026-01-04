@@ -1,10 +1,14 @@
 {
-  "name": "Adrian Bardan",
-  "email": "abardandev@gmail.com",
+  "name": "User Name",
+  "email": "user@email.com",
   "picture": "https://lh3.googleusercontent.com/a/ACg8ocLKTtjfItgylP-fW__I3IIAMuMD-Oz0UU4hYer1usof9Fgs0-1_9A=s96-c",
-  "sub": "123e50e3-9c99-4304-b9a8-771dc2766d59",
-  "userId": "123e50e3-9c99-4304-b9a8-771dc2766d59",
-  "iat": 1767293044,
-  "exp": 1769885044,
-  "jti": "06b0fe8b-fe2d-4c02-83b3-f512984ba3e6"
+  "sub": "3811fce3-ecf1-4eb5-a229-a499a48ac03a",
+  "providerSub": "118410606829981319653",
+  "firstName": "User",
+  "lastName": "Name",
+  "provider": "google",
+  "providerAccountId": "118410606829981319653",
+  "iat": 1767474374,
+  "exp": 1770066374,
+  "jti": "34a90b11-041a-410c-8882-5f83b6067126"
 }

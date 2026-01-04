@@ -9,12 +9,12 @@ namespace DogeCoiner.Data.WebApi.Controllers
     [AllowAnonymous]
     public class KLineHistoryController : ControllerBase
     {
-        private CoinDataDbContext _ctx;
+        private CoinDataDbContext _db;
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public KLineHistoryController(CoinDataDbContext ctx, ILogger<WeatherForecastController> logger)
+        public KLineHistoryController(CoinDataDbContext db, ILogger<WeatherForecastController> logger)
         {
-            _ctx = ctx;
+            _db = db;
             _logger = logger;
         }
 
@@ -23,7 +23,7 @@ namespace DogeCoiner.Data.WebApi.Controllers
             [FromQuery] string symbol,
             [FromQuery] string interval)
         {
-            return _ctx.KLines
+            return _db.KLines
                 .Where(o => o.Symbol == symbol && o.Interval == interval)
                 .ToArray();
         }
@@ -33,7 +33,7 @@ namespace DogeCoiner.Data.WebApi.Controllers
             [FromQuery] string symbol,
             [FromQuery] string interval)
         {
-            return _ctx.KLines
+            return _db.KLines
                 .Where(o => o.Symbol == symbol && o.Interval == interval)
                 .OrderBy(o => o.TimestampUtc)
                 .Select(o => new

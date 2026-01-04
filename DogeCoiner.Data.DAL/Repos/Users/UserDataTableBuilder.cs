@@ -25,8 +25,12 @@ namespace DogeCoiner.Data.DAL
             var dt = new DataTable();
             var cols = dt.Columns;
             cols.Add(nameof(User.UserId));
-            cols.Add(nameof(User.Username));
-            cols.Add(nameof(User.IsRegistered));
+            cols.Add(nameof(User.Email));
+            cols.Add(nameof(User.FirstName));
+            cols.Add(nameof(User.LastName));
+            cols.Add(nameof(User.Picture));
+            cols.Add(nameof(User.ProviderSub));
+            cols.Add(nameof(User.ProviderName));
 
             return dt;
         }
@@ -35,12 +39,14 @@ namespace DogeCoiner.Data.DAL
         {
             foreach (var item in _items)
             {
-                {
-                    dt.Rows.Add(
-                        item.UserId,
-                        item.Username,
-                        item.IsRegistered);
-                }
+                dt.Rows.Add(
+                    item.UserId,
+                    item.Email,
+                    item.FirstName,
+                    item.LastName,
+                    item.Picture,
+                    item.ProviderSub,
+                    item.ProviderName);
             }
         }
     }

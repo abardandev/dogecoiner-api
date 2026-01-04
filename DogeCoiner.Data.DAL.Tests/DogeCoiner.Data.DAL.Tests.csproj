@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\DogeCoiner.Data.Bitunix\DogeCoiner.Data.Bitunix.csproj" />
     <ProjectReference Include="..\DogeCoiner.Data.DAL\DogeCoiner.Data.DAL.csproj" />
+    <ProjectReference Include="..\DogeCoiner.Data\DogeCoiner.Data.csproj" />
   </ItemGroup>
 
   <ItemGroup>

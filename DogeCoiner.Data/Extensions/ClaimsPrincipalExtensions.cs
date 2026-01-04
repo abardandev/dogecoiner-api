@@ -1,7 +1,7 @@
+using DogeCoiner.Data.Auth;
 using System.Security.Claims;
-using DogeCoiner.WebApi.Models;
 
-namespace DogeCoiner.WebApi.Extensions;
+namespace DogeCoiner.Data.Extensions;
 
 /// <summary>
 /// Extension methods for ClaimsPrincipal to easily access authenticated user information

@@ -4,8 +4,8 @@ namespace DogeCoiner.Data.Dtos
 {
     public class Portfolio
     {
-        public int PortfolioId { get; set; }
-        public int UserId { get; set; }
+        public long PortfolioId { get; set; }
+        public long UserId { get; set; }
         public string PortfolioName { get; set; }
 
         [ForeignKey(nameof(UserId))]

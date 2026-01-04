@@ -1,12 +1,12 @@
 using System.Security.Claims;
 
-namespace DogeCoiner.WebApi.Models;
+namespace DogeCoiner.Data.Auth;
 
 /// <summary>
 /// Represents an authenticated user from NextAuth JWE token claims.
 /// Provides strongly-typed access to user information.
 /// </summary>
-public class AuthenticatedUser
+public class AuthenticatedUser : IAuthUser
 {
     private readonly ClaimsPrincipal _principal;
 
@@ -35,22 +35,37 @@ public class AuthenticatedUser
     public string Picture => _principal.FindFirst("picture")?.Value ?? string.Empty;
 
     /// <summary>
-    /// User's unique identifier (subject)
+    /// Auth provider's user unique id, ex: google's sub
     /// </summary>
-    public string Sub => _principal.FindFirst(ClaimTypes.NameIdentifier)?.Value
-        ?? _principal.FindFirst("sub")?.Value
+    public string ProviderSub => _principal.FindFirst("providersub")?.Value
+        ?? _principal.FindFirst("providersub")?.Value
         ?? string.Empty;
 
     /// <summary>
-    /// User ID (same as Sub for NextAuth)
+    /// Auth provider name, ex: google
     /// </summary>
-    public string UserId => _principal.FindFirst("userId")?.Value
-        ?? Sub;
+    public string Provider => _principal.FindFirst("provider")?.Value
+        ?? _principal.FindFirst("provider")?.Value
+        ?? string.Empty;
+
+    /// <summary>
+    /// User's first name
+    /// </summary>
+    public string FirstName => _principal.FindFirst("firstname")?.Value
+        ?? _principal.FindFirst("firstname")?.Value
+        ?? string.Empty;
+
+    /// <summary>
+    /// User's last name
+    /// </summary>
+    public string LastName => _principal.FindFirst("lastname")?.Value
+        ?? _principal.FindFirst("lastname")?.Value
+        ?? string.Empty;
 
     /// <summary>
     /// Issued At timestamp (Unix timestamp)
     /// </summary>
-    public long IssuedAt
+    public long Iat
     {
         get
         {
@@ -62,12 +77,12 @@ public class AuthenticatedUser
     /// <summary>
     /// Issued At as DateTimeOffset
     /// </summary>
-    public DateTimeOffset IssuedAtDate => DateTimeOffset.FromUnixTimeSeconds(IssuedAt);
+    public DateTimeOffset IssuedAtDateUtc => DateTimeOffset.FromUnixTimeSeconds(Iat);
 
     /// <summary>
     /// Expiration timestamp (Unix timestamp)
     /// </summary>
-    public long Expiration
+    public long Exp
     {
         get
         {
@@ -79,17 +94,12 @@ public class AuthenticatedUser
     /// <summary>
     /// Expiration as DateTimeOffset
     /// </summary>
-    public DateTimeOffset ExpirationDate => DateTimeOffset.FromUnixTimeSeconds(Expiration);
-
-    /// <summary>
-    /// JWT ID (unique identifier for this token)
-    /// </summary>
-    public string Jti => _principal.FindFirst("jti")?.Value ?? string.Empty;
+    public DateTimeOffset ExpirationDateUtc => DateTimeOffset.FromUnixTimeSeconds(Exp);
 
     /// <summary>
     /// Whether the token has expired
     /// </summary>
-    public bool IsExpired => DateTimeOffset.UtcNow > ExpirationDate;
+    public bool IsExpired => DateTimeOffset.UtcNow > ExpirationDateUtc;
 
     /// <summary>
     /// Whether the user is authenticated

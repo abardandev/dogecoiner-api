@@ -1,32 +1,10 @@
-using DogeCoiner.Data.DAL;
-using DogeCoiner.WebApi.Authentication;
-using DogeCoiner.WebApi.Configuration;
-using DogeCoiner.WebApi.Services;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.EntityFrameworkCore;
+using DogeCoiner.WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-var dbConn =
-    builder.Configuration.GetConnectionString("DogeCoinerDb")
-        ?? throw new InvalidOperationException("Connection string 'DogeCoinerDb' not found.");
-
-builder.Services.AddDbContext<CoinDataDbContext>(options =>
-    options.UseSqlServer(dbConn));
-
-// Configure JWE settings
-builder.Services.Configure<JweSettings>(
-    builder.Configuration.GetSection(JweSettings.SectionName));
-
-// Register JWE decryption service
-builder.Services.AddScoped<IJweDecryptionService, JweDecryptionService>();
-
-// Configure authentication with JWE handler
-builder.Services.AddAuthentication("JweBearer")
-    .AddScheme<AuthenticationSchemeOptions, JweAuthenticationHandler>("JweBearer", null);
-
-builder.Services.AddAuthorization();
+// Add DogeCoiner services
+builder.Services.AddDogeCoiner(builder.Configuration);
+builder.Services.AddDogeCoinerSecurity(builder.Configuration);
 
 builder.Services.AddCors(opts =>
 {

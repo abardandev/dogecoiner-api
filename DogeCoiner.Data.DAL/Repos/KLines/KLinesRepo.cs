@@ -15,7 +15,7 @@ namespace DogeCoiner.Data.DAL.Repos.KLines
     {
         private string _connStr;
 
-        public KLinesRepo(IOptions<DogeCoinerDataSettings> opts)
+        public KLinesRepo(IOptions<DogeCoinerSettings> opts)
         {
             _connStr = opts.Value.ConnectionString;
         }

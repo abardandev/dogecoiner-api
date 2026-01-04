@@ -1,25 +1,29 @@
-using System.Security.Claims;
-using System.Text.Encodings.Web;
+using DogeCoiner.Data.Auth;
+using DogeCoiner.Data.DAL.Repos.Users;
 using DogeCoiner.WebApi.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using System.Text.Encodings.Web;
 
 namespace DogeCoiner.WebApi.Authentication;
 
 public class JweAuthenticationHandler : AuthenticationHandler<AuthenticationSchemeOptions>
 {
     private readonly IJweDecryptionService _jweDecryptionService;
+    private readonly IUsersRepo _usersRepo;
 
     public JweAuthenticationHandler(
         IOptionsMonitor<AuthenticationSchemeOptions> options,
         ILoggerFactory logger,
         UrlEncoder encoder,
-        IJweDecryptionService jweDecryptionService)
+        IJweDecryptionService jweDecryptionService,
+        IUsersRepo usersRepo)
         : base(options, logger, encoder)
     {
         _jweDecryptionService = jweDecryptionService;
+        _usersRepo = usersRepo;
     }
 
     protected override async Task<AuthenticateResult> HandleAuthenticateAsync()
@@ -40,7 +44,7 @@ public class JweAuthenticationHandler : AuthenticationHandler<AuthenticationSche
         string? authorizationHeader = Request.Headers.Authorization.ToString();
 
         // Check if the header has the Bearer scheme
-        if (string.IsNullOrWhiteSpace(authorizationHeader) 
+        if (string.IsNullOrWhiteSpace(authorizationHeader)
             || !authorizationHeader.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
         {
             return AuthenticateResult.NoResult();
@@ -56,14 +60,23 @@ public class JweAuthenticationHandler : AuthenticationHandler<AuthenticationSche
 
         try
         {
-            // Decrypt and validate the JWE token
-            ClaimsPrincipal principal = await _jweDecryptionService.DecryptAndValidateAsync(jweToken);
+            // Step 1: Decrypt and validate the JWE token
+            var authUser = _jweDecryptionService.DecryptAndValidate(jweToken);
+
+            // Step 2: Ensure user exists (auto-register if new user)
+            if (!_usersRepo.UserExists(authUser.Email))
+            {
+                Logger.LogInformation("Auto-registering new user: {Email}", authUser.Email);
+                await _usersRepo.SaveAsync(authUser.ToUser());
+            }
+
+            // Step 3: Build ClaimsPrincipal
+            var principal = authUser.ToClaimsPrincipal();
 
             // Create the authentication ticket
             var ticket = new AuthenticationTicket(principal, Scheme.Name);
 
-            Logger.LogInformation("Successfully authenticated user: {UserId}",
-                principal.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "unknown");
+            Logger.LogInformation("Successfully authenticated user: {Sub}", authUser.ProviderSub);
 
             return AuthenticateResult.Success(ticket);
         }
