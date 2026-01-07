@@ -20,15 +20,19 @@ The `DogeCoiner.DataImport` solution covers multiple functions.
 
 ```mermaid
 flowchart RL
-    subgraph S1[ ]
-        direction TB
-        B[DogeCoiner API] <--> C[(DB)];
-    end
-    D[3rd party API] --> S1;
+  S1 <--> G[Auth JWE Token]
+  subgraph S1[ ]
+      direction TB
+      B[DogeCoiner API] <--> C[(DB)];
+  end
+  D[3rd party API] --> S1;
 ```
 
 1. To import 3rd party price data for multiple assets.
 1. To provide structured data access through DogeCoiner API to the DogeCoiner app ecosystem.
+1. To allow secure portfolio management across multiple devices.
+
+Security is handled with JWE cookies proxied from the UI. Users login with google there. As long as I can decrypt the cookie on the server side with the same keys, I can trust the requests.
 
 The data import has this main use case:
 - **Run background workers to get crypto prices and save them to the DogeCoiner database.**
