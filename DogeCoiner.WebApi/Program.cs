@@ -1,4 +1,5 @@
 using DogeCoiner.WebApi.Extensions;
+using Hangfire;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,5 +32,16 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseHangfireDashboard("/hangfire");
+}
+
+app.MapGet("/", context => 
+{ 
+    context.Response.Redirect("/status", true);
+    return Task.CompletedTask;
+});
 
 app.Run();

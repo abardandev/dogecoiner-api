@@ -37,8 +37,8 @@ public class AuthenticatedUser : IAuthUser
     /// <summary>
     /// Auth provider's user unique id, ex: google's sub
     /// </summary>
-    public string ProviderSub => _principal.FindFirst("providersub")?.Value
-        ?? _principal.FindFirst("providersub")?.Value
+    public string ProviderSub => _principal.FindFirst(ClaimTypes.NameIdentifier)?.Value
+        ?? _principal.FindFirst(ClaimTypes.NameIdentifier)?.Value
         ?? string.Empty;
 
     /// <summary>

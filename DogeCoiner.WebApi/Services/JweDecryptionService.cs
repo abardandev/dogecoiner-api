@@ -47,7 +47,7 @@ public class JweDecryptionService : IJweDecryptionService
 
             // Log successful decryption
             _logger.LogInformation("Successfully decrypted and validated JWE token for subject: {Subject}",
-                user.Sub);
+                user.ProviderSub);
 
             return user;
         }

@@ -5,6 +5,7 @@ using DogeCoiner.Data.Extensions;
 using DogeCoiner.WebApi.Authentication;
 using DogeCoiner.WebApi.Configuration;
 using DogeCoiner.WebApi.Services;
+using Hangfire;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,22 +17,29 @@ public static class ServiceCollectionExtensions
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        // Get connection string - single source of truth
         var dbConn = configuration.GetDogeCoinerConnectionString();
 
-        // Database context
         services.AddDbContext<CoinDataDbContext>(options =>
             options.UseSqlServer(dbConn));
 
-        // Configure DogeCoiner settings with the same connection string
         services.Configure<DogeCoinerSettings>(config =>
         {
             config.ConnectionString = dbConn;
         });
 
-        // Register repositories
+        // register services
         services.AddScoped<ISaveUsers, DapperSaveUsers>();
         services.AddScoped<IUsersRepo, UsersRepo>();
+
+        // add hangfire
+        services.AddHangfire(configuration => 
+            configuration
+                .SetDataCompatibilityLevel(CompatibilityLevel.Version_180)
+                .UseSimpleAssemblyNameTypeSerializer()
+                .UseRecommendedSerializerSettings()
+                .UseSqlServerStorage(dbConn));
+        
+        services.AddHangfireServer();
 
         return services;
     }
